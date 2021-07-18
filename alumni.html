@@ -5,6 +5,27 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			/* Container for flexboxes */
+			.rosterrow {
+			  display: flex;
+			  flex-wrap: wrap;
+			}
+			/* Create four equal columns */
+			.rostercolumn {
+			  flex: 25%;
+			  padding: 20px;
+			}
+			/* On screens that are 992px wide or less, go from four columns to two columns */
+			@media screen and (max-width: 1080px) {
+			  .rostercolumn {
+				flex: 50%;
+			  }
+			}
+			</style>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -42,6 +63,7 @@
 
 						<!-- Content -->
 							<div id="content">
+								<!--
 								<article class="box post">
 									<header class="style1">
 										<h2>Lorem ipsum dolor sit amet magna egestas<br class="mobile-hide" />
@@ -81,6 +103,7 @@
 									leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
 									amet risus elit.</p>
 								</article>
+								-->
 							</div>
 
 					</div>
