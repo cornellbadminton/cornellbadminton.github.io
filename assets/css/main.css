@@ -74,6 +74,21 @@ input, select, textarea {
 
 /* Basic */
 
+	ul.icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding: 0 0.65em 0 0;
+		}
+
+			ul.icons li:last-child {
+				padding-right: 0 !important;
+			}
+
 	@-ms-viewport {
 		width: device-width;
 	}

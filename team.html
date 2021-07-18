@@ -15,6 +15,10 @@
 			  flex-wrap: wrap;
 			}
 			/* Create four equal columns */
+			.rostercolumnpfp {
+			  flex: 25%;
+			  padding: 20px;
+			}
 			.rostercolumn {
 			  flex: 25%;
 			  padding: 20px;
@@ -25,7 +29,13 @@
 				flex: 50%;
 			  }
 			}
-			</style>
+
+			@media screen and (max-width: 540px) {
+        	.rostercolumnpfp {
+        	display: none !important;
+    			}
+			}
+		</style>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -62,7 +72,7 @@
 					<div class="container">
 
 						<div class="rosterrow">
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/michael_liang.png" alt="Michael Liang" align='right'/>
 							</div>
 							
@@ -74,7 +84,7 @@
 								<b>Hometown:</b> Mesa, AZ<br>
 								<b>Fun Fact:</b> I'm a troll!</p>
 							</div>
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/alex_sheft.png" alt="Alex Sheft" align='right'/>
 							</div>
 							
@@ -90,7 +100,7 @@
 						  </div>
 
 						  <div class="rosterrow">
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/daniel_zhan.png" alt="Daniel Zhan" align='right'/>
 							</div>
 							
@@ -103,7 +113,7 @@
 								<b>Fun Fact:</b> I do a lot of crazy trickshots, but they tend not to work...</p>
 							</div>
 
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/varun_rajesh.png" alt="Varun Rajesh" align='right'/>
 							</div>
 							
@@ -118,7 +128,7 @@
 
 						  </div>
 						  <div class="rosterrow">
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/emily_wang.png" alt="Emily Wang" align='right'/>
 							</div>
 							
@@ -131,7 +141,7 @@
 								<b>Fun Fact:</b> I have broken a lot of bones!</p>
 							</div>
 
-							<div class="rostercolumn">
+							<div class="rostercolumnpfp">
 								<img src="images/xiaoxiang_ma.png" alt="Xiaoxiang Ma" align='right'/>
 							</div>
 							
