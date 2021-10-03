@@ -1,0 +1,11 @@
+/* CSS for team roster */
+
+p {
+    margin-bottom: 0;
+}
+
+.rostercolumn {
+    display: flex; 
+    flex-direction: column;
+}
+
