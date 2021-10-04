@@ -2,6 +2,17 @@
 
 jsonn = [
     {
+        "firstname": "Janice",
+        "lastname": "Lee",
+        "email": "jl2838@cornell.edu",
+        "major": "Information Science",
+        "gradyear": "2024",
+        "favracket": "Yonex Voltric 7",
+        "hometown": "Whippany, NJ",
+        "funfact": "I microwave my apples because my teeth are cold-sensitive",
+        "pfpname": ""
+    },
+    {
         "firstname": "Ridhit",
         "lastname": "Bhura",
         "email": "rb749@cornell.edu",
@@ -76,17 +87,6 @@ jsonn = [
         "favracket": "Yonex Astrox 5FX",
         "hometown": "Philadelphia",
         "funfact": "I have hyperextended knees and double-jointed fingers!",
-        "pfpname": ""
-    },
-    {
-        "firstname": "Janice",
-        "lastname": "Lee",
-        "email": "jl2838@cornell.edu",
-        "major": "Information Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Voltric 7",
-        "hometown": "Whippany, NJ",
-        "funfact": "I collect gum wrappers so I can write my memories into them and look back on them one day.",
         "pfpname": ""
     },
     {
