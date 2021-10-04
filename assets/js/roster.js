@@ -2,50 +2,6 @@
 
 jsonn = [
     {
-        "firstname": "Janice",
-        "lastname": "Lee",
-        "email": "jl2838@cornell.edu",
-        "major": "Information Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Voltric 7",
-        "hometown": "Whippany, NJ",
-        "funfact": "I microwave my apples because my teeth are cold-sensitive",
-        "pfpname": ""
-    },
-    {
-        "firstname": "Ridhit",
-        "lastname": "Bhura",
-        "email": "rb749@cornell.edu",
-        "major": "Computer Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Mumbai, MH, India",
-        "funfact": "I've been singing Indian classical music for over 8 years.",
-        "pfpname": ""
-    },
-    {
-        "firstname": "Xinguo",
-        "lastname": "Peng",
-        "email": "xp62@cornell.com",
-        "major": "Applied Economics and Management",
-        "gradyear": "2022",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Beijing, China",
-        "funfact": "As a certified badminton referee, ask me anything about badminton :-) And I always wanted to train my cat to fetch shuttles.",
-        "pfpname": ""
-    },
-    {
-        "firstname": "Shreyas",
-        "lastname": "Kotian",
-        "email": "spk59@cornell.edu",
-        "major": "Mechanical Engineering",
-        "gradyear": "2023",
-        "favracket": "Yonex Duora 10",
-        "hometown": "Mumbai, India",
-        "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine.",
-        "pfpname": ""
-    },
-    {
         "firstname": "Emily",
         "lastname": "Hu",
         "email": "exh2@cornell.edu",
@@ -57,25 +13,25 @@ jsonn = [
         "pfpname": ""
     },
     {
-        "firstname": "Yiqi",
-        "lastname": "Jiang",
-        "email": "yj89@cornell.edu",
-        "major": "Electrical and Computer Engineering + Computer Science",
-        "gradyear": "2022",
-        "favracket": "Nanospeed 8000",
-        "hometown": "Beijing, China",
-        "funfact": ":)",
+        "firstname": "Netra",
+        "lastname": "Shetty",
+        "email": "nhs53@cornell.edu",
+        "major": "Biological Sciences",
+        "gradyear": "2025",
+        "favracket": "Yonex Astrox 77",
+        "hometown": "San Jose, California",
+        "funfact": "I fostered two 6 week old kittens over the summer!",
         "pfpname": ""
     },
     {
-        "firstname": "Jiren",
-        "lastname": "Liu",
-        "email": "jl2866@cornell.edu",
-        "major": "Mechanical Engineering",
-        "gradyear": "2023",
-        "favracket": "Victor Bravesword",
-        "hometown": "Nanjing, Jiangsu, China",
-        "funfact": "I also do archery. I used to play at UConn badminton against Cornell XD",
+        "firstname": "Janice",
+        "lastname" : "Lee",
+        "email": "jl2838@cornell.edu",
+        "major": "Information Science",
+        "gradyear": "2024",
+        "favracket": "Yonex Voltric 7",
+        "hometown": "Whippany, NJ",
+        "funfact": "I microwave my apples because my teeth are cold-sensitive",
         "pfpname": ""
     },
     {
@@ -156,6 +112,61 @@ jsonn = [
         "pfpname": ""
     },
     {
+        "firstname": "Ridhit",
+        "lastname": "Bhura",
+        "email": "rb749@cornell.edu",
+        "major": "Computer Science",
+        "gradyear": "2024",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Mumbai, MH, India",
+        "funfact": "I've been singing Indian classical music for over 8 years.",
+        "pfpname": ""
+    },
+    {
+        "firstname": "Xinguo",
+        "lastname": "Peng",
+        "email": "xp62@cornell.com",
+        "major": "Applied Economics and Management",
+        "gradyear": "2022",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Beijing, China",
+        "funfact": "As a certified badminton referee, ask me anything about badminton :-) And I always wanted to train my cat to fetch shuttles.",
+        "pfpname": ""
+    },
+    {
+        "firstname": "Shreyas",
+        "lastname": "Kotian",
+        "email": "spk59@cornell.edu",
+        "major": "Mechanical Engineering",
+        "gradyear": "2023",
+        "favracket": "Yonex Duora 10",
+        "hometown": "Mumbai, India",
+        "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine.",
+        "pfpname": ""
+    },
+    {
+        "firstname": "Yiqi",
+        "lastname": "Jiang",
+        "email": "yj89@cornell.edu",
+        "major": "Electrical and Computer Engineering + Computer Science",
+        "gradyear": "2022",
+        "favracket": "Nanospeed 8000",
+        "hometown": "Beijing, China",
+        "funfact": ":)",
+        "pfpname": ""
+    },
+    {
+        "firstname": "Jiren",
+        "lastname": "Liu",
+        "email": "jl2866@cornell.edu",
+        "major": "Mechanical Engineering",
+        "gradyear": "2023",
+        "favracket": "Victor Bravesword",
+        "hometown": "Nanjing, Jiangsu, China",
+        "funfact": "I also do archery. I used to play at UConn badminton against Cornell XD",
+        "pfpname": ""
+    },
+    {
         "firstname": "Xiaoxiang",
         "lastname": "Ma",
         "email": "xm53@cornell.edu",
@@ -189,9 +200,19 @@ jsonn = [
         "pfpname": ""
     }
 ]
+var email_ = "<b>Email: </b>"
+var racket_ = "<b> Favorite Racket: </b>"
+var hometown_ = "<b> Hometown: </b> "
+var funfact_ = "<b> Fun Fact: </b> "
+
 
 var data = JSON.parse(JSON.stringify(jsonn))
 for (let p in data) {
-    document.getElementsByClassName("name")[p].textContent = data[p].firstname
-    console.log(data[p].name)
+    document.getElementsByClassName("name")[p].textContent = data[p].firstname + " " + data[p].lastname
+    document.getElementsByClassName("major")[p].textContent = data[p].major + " | " + data[p].gradyear
+    document.getElementsByClassName("email")[p].innerHTML= email_ + data[p].email
+    document.getElementsByClassName("racket")[p].innerHTML = racket_ + data[p].favracket
+    document.getElementsByClassName("hometown")[p].innerHTML = hometown_ + data[p].hometown
+    document.getElementsByClassName("funfact")[p].innerHTML = funfact_ + data[p].funfact
+    document.getElementsByClassName("image")[p].src = "images/" + data[p].firstname.toLowerCase() + "_" + data[p].lastname.toLowerCase() + ".png"
 }
