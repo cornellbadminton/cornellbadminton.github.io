@@ -15,8 +15,12 @@
 			  flex-wrap: wrap;
 			}
 			/* Create four equal columns */
+			.rostercolumnpfp {
+			  flex: 20%;
+			  padding: 20px;
+			}
 			.rostercolumn {
-			  flex: 25%;
+			  flex: 30%;
 			  padding: 20px;
 			}
 			/* On screens that are 992px wide or less, go from four columns to two columns */
@@ -24,6 +28,12 @@
 			  .rostercolumn {
 				flex: 50%;
 			  }
+			}
+
+			@media screen and (max-width: 540px) {
+        	.rostercolumnpfp {
+        	display: none !important;
+    			}
 			}
 			</style>
 	</head>

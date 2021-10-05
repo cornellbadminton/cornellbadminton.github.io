@@ -31,7 +31,7 @@ jsonn = [
         "gradyear": "2024",
         "favracket": "Yonex Voltric 7",
         "hometown": "Whippany, NJ",
-        "funfact": "I microwave my apples because my teeth are cold-sensitive",
+        "funfact": "I microwave my apples because my teeth are cold-sensitive.",
         "pfpname": ""
     },
     {
@@ -75,7 +75,7 @@ jsonn = [
         "gradyear": "2023",
         "favracket": "Yonex Armortec",
         "hometown": "Edison, NJ, USA",
-        "funfact": "I hate myself and I want to die",
+        "funfact": "I enjoy attempting trickshots that should never work.",
         "pfpname": ""
     },
     {
@@ -163,7 +163,7 @@ jsonn = [
         "gradyear": "2023",
         "favracket": "Victor Bravesword",
         "hometown": "Nanjing, Jiangsu, China",
-        "funfact": "I also do archery. I used to play at UConn badminton against Cornell XD",
+        "funfact": "I also do archery. I used to play for UConn Badminton against Cornell's team.",
         "pfpname": ""
     },
     {
