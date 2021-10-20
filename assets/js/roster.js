@@ -9,7 +9,7 @@ jsonn = [
         "gradyear": "2025",
         "favracket": "Yonex Voltric Z-Force 2",
         "hometown": "Vernon Hills, Illinois",
-        "funfact": "I’m really good at word hunt. Please",
+        "funfact": "I’m cringe.",
         "pfpname": ""
     },
     {
@@ -75,7 +75,7 @@ jsonn = [
         "gradyear": "2023",
         "favracket": "Yonex Armortec",
         "hometown": "Edison, NJ, USA",
-        "funfact": "I enjoy attempting trickshots that should never work.",
+        "funfact": "Emily is cringe.",
         "pfpname": ""
     },
     {
@@ -150,7 +150,7 @@ jsonn = [
         "email": "yj89@cornell.edu",
         "major": "Electrical and Computer Engineering + Computer Science",
         "gradyear": "2022",
-        "favracket": "Nanospeed 8000",
+        "favracket": "Yonex Nanospeed 8000",
         "hometown": "Beijing, China",
         "funfact": ":)",
         "pfpname": ""
