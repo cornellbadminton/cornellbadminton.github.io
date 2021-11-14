@@ -9,7 +9,7 @@ jsonn = [
         "gradyear": "2025",
         "favracket": "Yonex Voltric Z-Force 2",
         "hometown": "Vernon Hills, Illinois",
-        "funfact": "I’m cringe.",
+        "funfact": "I force my teammates to make TikToks with me.",
         "pfpname": ""
     },
     {
@@ -75,7 +75,7 @@ jsonn = [
         "gradyear": "2023",
         "favracket": "Yonex Armortec",
         "hometown": "Edison, NJ, USA",
-        "funfact": "Emily is cringe.",
+        "funfact": "I'm allergic to eggs but I can make a decent omelette.",
         "pfpname": ""
     },
     {
