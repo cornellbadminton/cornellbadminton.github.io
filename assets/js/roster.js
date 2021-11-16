@@ -75,7 +75,7 @@ jsonn = [
         "gradyear": "2023",
         "favracket": "Yonex Armortec",
         "hometown": "Edison, NJ, USA",
-        "funfact": "I'm allergic to eggs but I can make a decent omelette.",
+        "funfact": "I made this site!",
         "pfpname": ""
     },
     {
