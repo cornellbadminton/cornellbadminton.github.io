@@ -17,16 +17,19 @@
 			}
 			/* Create four equal columns */
 			.rostercolumnpfp {
-			  flex: 0%;
-			  padding: 10px;
+			  flex: 20%;
+			  padding: 25px;
 			}
 			.rostercolumn {
-			  flex: 0%;
+			  flex: 30%;
 			  padding: 25px;
 			}
 			/* On screens that are 992px wide or less, go from four columns to two columns */
-			@media screen and (max-width: 1080px) {
-			  .rostercolumn {
+			@media screen and (max-width: 1280px) {
+				.rostercolumnpfp {
+			  	flex: 50%;
+			}
+				.rostercolumn {
 				flex: 50%;
 			  }
 			}
@@ -70,240 +73,114 @@
 			<!-- Main -->
 				<div id="main" class="wrapper style3">
 					<div class="title">Current Team</div>
-					<div class="container">
+                    <div id="myData"></div>
+                    <script>
+                        fetch('players.json')
+                            .then(function (response) {
+                                return response.json();
+                            })
+                            .then(function (data) {
+                                appendData(data);
+                            })
+                            .catch(function (err) {
+                                console.log('error: ' + err);
+                            });
+                            
+                            function appendData(data) {
+                                var mainContainer = document.getElementById("myData");
+                                for (var i = 0; i < data.length; i+=2) {
 
-						<div class="rosterrow">
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
+                                    var firstname1 = data[i].firstname
+                                    var lastname1 = data[i].lastname
+                                    var name1 = data[i].firstname + ' ' + data[i].lastname;
+                                    var email1 = data[i].email;
+                                    var major1 = data[i].major;
+                                    var gradyear1 = data[i].gradyear;
+                                    var favracket1 = data[i].favracket;
+                                    var hometown1 = data[i].hometown;
+                                    var funfact1 = data[i].funfact;
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
+                                    var firstname2 = data[i+1].firstname
+                                    var lastname2 = data[i+1].lastname
+                                    var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
+                                    var email2 = data[i+1].email;
+                                    var major2 = data[i+1].major;
+                                    var gradyear2 = data[i+1].gradyear;
+                                    var favracket2 = data[i+1].favracket;
+                                    var hometown2 = data[i+1].hometown;
+                                    var funfact2 = data[i+1].funfact;
 
-						  <div class="rosterrow">
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
+                                    var div1_1 = document.createElement("div");
+                                    div1_1.classList.add('rosterrow');
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
+                                    var div1_2 = document.createElement("div");
+                                    div1_2.classList.add('rostercolumnpfp');
 
-						  <div class="rosterrow">
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						</div>
+                                    var pfpelement1 = document.createElement("img");
+                                    pfpelement1.setAttribute('src', 'images/' + firstname1.toLowerCase() + "_" + lastname1.toLowerCase() + '.png');
+                                    pfpelement1.setAttribute('alt', name1);
+                                    pfpelement1.setAttribute('height', '200px');
+                                    pfpelement1.setAttribute('width', '200px');
+                                    pfpelement1.setAttribute('align', 'right');
+                                    div1_2.appendChild(pfpelement1);
 
-						  <div class="rosterrow">
+                                    var div1_3 = document.createElement("div");
+                                    div1_3.classList.add('rostercolumn');
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
-						  <div class="rosterrow">
+                                    var displayname1 = document.createElement('H3');
+                                    displayname1.innerHTML = name1;
+                                    var displaymajoryear1 = document.createElement('H2');
+                                    displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
+                                    var displayinfo1 = document.createElement('p');
+                                    displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
+                                        <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
+                                        <b>Hometown:</b> ` + hometown1 + "<br>" + `
+                                        <b>Fun Fact:</b> ` + funfact1
+                                    div1_3.appendChild(displayname1);
+                                    div1_3.appendChild(displaymajoryear1);
+                                    div1_3.appendChild(displayinfo1);
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
+                                    /////////////////////////////////////////////////////////
 
-						  <div class="rosterrow">
+                                    var div1_4 = document.createElement("div");
+                                    div1_4.classList.add('rostercolumnpfp');
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
+                                    var pfpelement2 = document.createElement("img");
+                                    pfpelement2.setAttribute('src', 'images/' + firstname2.toLowerCase() + "_" + lastname2.toLowerCase() + '.png');
+                                    pfpelement2.setAttribute('alt', name2);
+                                    pfpelement2.setAttribute('height', '200px');
+                                    pfpelement2.setAttribute('width', '200px');
+                                    pfpelement2.setAttribute('align', 'right');
+                                    div1_4.appendChild(pfpelement2);
 
-						  <div class="rosterrow">
+                                    var div1_5 = document.createElement("div");
+                                    div1_5.classList.add('rostercolumn');
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
+                                    var displayname2 = document.createElement('H3');
+                                    displayname2.innerHTML = name2;
+                                    var displaymajoryear2 = document.createElement('H2');
+                                    displaymajoryear2.innerHTML = major2 + " | " + gradyear2;
+                                    var displayinfo2 = document.createElement('p');
+                                    displayinfo2.innerHTML = "<b>Email:</b> " + email2 + "<br>" + `
+                                        <b>Favorite Racket:</b> ` + favracket2 + "<br>" + `
+                                        <b>Hometown:</b> ` + hometown2 + "<br>" + `
+                                        <b>Fun Fact:</b> ` + funfact2
+                                    div1_5.appendChild(displayname2);
+                                    div1_5.appendChild(displaymajoryear2);
+                                    div1_5.appendChild(displayinfo2);
+                                    //var div = document.createElement("div");
+                                    //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
 
-						  <div class="rosterrow">
+                                    div1_1.appendChild(div1_2);
+                                    div1_1.appendChild(div1_3);
+                                    div1_1.appendChild(div1_4);
+                                    div1_1.appendChild(div1_5);
 
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-							
-							<div class="rostercolumnpfp">
-								<img class = "image" width = "200" height = "200" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3 class = "name"></h3>
-							  <h2 class = "major"></h2>
-							  <p class = "email"></p>
-							  <p class = "racket"></p>
-							  <p class = "hometown"></p>
-							  <p class = "funfact"></p>
-							</div>
-						  </div>
-
-
-					</div>
+                                    mainContainer.appendChild(div1_1);
+                                }
+                            }
+                    </script>
 				</div>
-						
 			<!-- Footer -->
 			<section id="footer" class="wrapper">
 				<div class="title">&copy; Cornell Badminton 2021</div>
