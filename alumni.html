@@ -16,16 +16,19 @@
 			}
 			/* Create four equal columns */
 			.rostercolumnpfp {
-			  flex: 0%;
-			  padding: 10px;
+			  flex: 20%;
+			  padding: 25px;
 			}
 			.rostercolumn {
-			  flex: 0%;
+			  flex: 30%;
 			  padding: 25px;
 			}
 			/* On screens that are 992px wide or less, go from four columns to two columns */
-			@media screen and (max-width: 1080px) {
-			  .rostercolumn {
+			@media screen and (max-width: 1280px) {
+				.rostercolumnpfp {
+			  	flex: 50%;
+			}
+				.rostercolumn {
 				flex: 50%;
 			  }
 			}
@@ -35,7 +38,7 @@
         	display: none !important;
     			}
 			}
-			</style>
+		</style>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">

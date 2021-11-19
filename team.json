@@ -80,16 +80,6 @@
         "funfact": "I'm right handed but I eat with my left."
     },
     {
-        "firstname": "Felisha",
-        "lastname": "Li",
-        "email": "fal46@cornell.edu",
-        "major": "Biological Sciences",
-        "gradyear": "2022",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Fremont, CA",
-        "funfact": "My cousin's cousin is related to Simu Liu."
-    },
-    {
         "firstname": "Ridhit",
         "lastname": "Bhura",
         "email": "rb749@cornell.edu",
@@ -118,16 +108,6 @@
         "favracket": "Yonex Duora 10",
         "hometown": "Mumbai, India",
         "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
-    },
-    {
-        "firstname": "Yiqi",
-        "lastname": "Jiang",
-        "email": "yj89@cornell.edu",
-        "major": "Electrical and Computer Engineering + Computer Science",
-        "gradyear": "2022",
-        "favracket": "Nanospeed 8000",
-        "hometown": "Beijing, China",
-        "funfact": ":)"
     },
     {
         "firstname": "Jiren",
