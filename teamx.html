@@ -113,7 +113,6 @@
 
                                     var div1_2 = document.createElement("div");
                                     div1_2.classList.add('rostercolumnpfp');
-                                    div1_1.appendChild(div1_2)
 
                                     var pfpelement1 = document.createElement("img");
                                     pfpelement1.setAttribute('src', 'images/' + firstname1.toLowerCase() + "_" + lastname1.toLowerCase() + '.png');
@@ -138,13 +137,11 @@
                                     div1_3.appendChild(displayname1);
                                     div1_3.appendChild(displaymajoryear1);
                                     div1_3.appendChild(displayinfo1);
-                                    div1_1.appendChild(div1_3);
 
                                     /////////////////////////////////////////////////////////
 
                                     var div1_4 = document.createElement("div");
                                     div1_4.classList.add('rostercolumnpfp');
-                                    div1_1.appendChild(div1_4)
 
                                     var pfpelement2 = document.createElement("img");
                                     pfpelement2.setAttribute('src', 'images/' + firstname2.toLowerCase() + "_" + lastname2.toLowerCase() + '.png');
@@ -169,9 +166,14 @@
                                     div1_5.appendChild(displayname2);
                                     div1_5.appendChild(displaymajoryear2);
                                     div1_5.appendChild(displayinfo2);
-                                    div1_1.appendChild(div1_5);
                                     //var div = document.createElement("div");
                                     //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+
+                                    div1_1.appendChild(div1_2);
+                                    div1_1.appendChild(div1_3);
+                                    div1_1.appendChild(div1_4);
+                                    div1_1.appendChild(div1_5);
+
                                     mainContainer.appendChild(div1_1);
                                 }
                             }
