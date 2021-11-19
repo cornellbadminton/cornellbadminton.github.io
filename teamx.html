@@ -88,6 +88,8 @@
                                 var mainContainer = document.getElementById("myData");
                                 for (var i = 0; i < data.length; i+=2) {
 
+                                    var firstname1 = data[i].firstname
+                                    var lastname1 = data[i].lastname
                                     var name1 = data[i].firstname + ' ' + data[i].lastname;
                                     var email1 = data[i].email;
                                     var major1 = data[i].major;
@@ -96,7 +98,9 @@
                                     var hometown1 = data[i].hometown;
                                     var funfact1 = data[i].funfact;
 
-                                    var name2 = data[i+1].firstname + ' ' + data[i].lastname;
+                                    var firstname2 = data[i+1].firstname
+                                    var lastname2 = data[i+1].lastname
+                                    var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
                                     var email2 = data[i+1].email;
                                     var major2 = data[i+1].major;
                                     var gradyear2 = data[i+1].gradyear;
@@ -112,7 +116,7 @@
                                     div1_1.appendChild(div1_2)
 
                                     var pfpelement1 = document.createElement("img");
-                                    pfpelement1.setAttribute('src', 'images/' + name1.toLowerCase() + '.png');
+                                    pfpelement1.setAttribute('src', 'images/' + firstname1.toLowerCase() + "_" + lastname1.toLowerCase() + '.png');
                                     pfpelement1.setAttribute('alt', name1);
                                     pfpelement1.setAttribute('height', '200px');
                                     pfpelement1.setAttribute('width', '200px');
@@ -143,7 +147,7 @@
                                     div1_1.appendChild(div1_4)
 
                                     var pfpelement2 = document.createElement("img");
-                                    pfpelement2.setAttribute('src', 'images/' + name2.toLowerCase() + '.png');
+                                    pfpelement2.setAttribute('src', 'images/' + firstname2.toLowerCase() + "_" + lastname2.toLowerCase() + '.png');
                                     pfpelement2.setAttribute('alt', name2);
                                     pfpelement2.setAttribute('height', '200px');
                                     pfpelement2.setAttribute('width', '200px');
