@@ -78,20 +78,11 @@
                                 return response.json();
                             })
                             .then(function (data) {
-                                appendfake(data);
+                                appendData(data);
                             })
                             .catch(function (err) {
                                 console.log('error: ' + err);
                             });
-
-                            function appendfake(data) {
-                                var mainContainer = document.getElementById("myData");
-
-                                var div = document.createElement("div");
-                                div.innerHTML = data[0].firstname;
-                                mainContainer.appendChild(div);
-
-                            }
                             
                             function appendData(data) {
                                 var mainContainer = document.getElementById("myData");
