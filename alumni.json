@@ -1,5 +1,25 @@
 [
     {
+        "firstname": "Michael",
+        "lastname": "Liang",
+        "email": "ml2226@cornell.edu",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2024",
+        "favracket": "Li-Ning Aeronaut 9000i",
+        "hometown": "Mesa, AZ, USA",
+        "funfact": "I'm a troll :)"
+    },
+    {
+        "firstname": "Alex",
+        "lastname": "Sheft",
+        "email": "aps322@cornell.edu",
+        "major": "Biology",
+        "gradyear": "2023",
+        "favracket": "Yonex Astrox 88S",
+        "hometown": "San Francisco, CA, USA",
+        "funfact": "I have a private pilot license, and have also met 1/4 of the men who have walked on the moon."
+    },
+    {
         "firstname": "Felisha",
         "lastname": "Li",
         "email": "fal46@cornell.edu",
