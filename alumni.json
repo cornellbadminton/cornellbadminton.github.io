@@ -10,16 +10,6 @@
         "funfact": "I'm a troll :)"
     },
     {
-        "firstname": "Alex",
-        "lastname": "Sheft",
-        "email": "aps322@cornell.edu",
-        "major": "Biology",
-        "gradyear": "2023",
-        "favracket": "Yonex Astrox 88S",
-        "hometown": "San Francisco, CA, USA",
-        "funfact": "I have a private pilot license, and have also met 1/4 of the men who have walked on the moon."
-    },
-    {
         "firstname": "Felisha",
         "lastname": "Li",
         "email": "fal46@cornell.edu",
@@ -38,6 +28,16 @@
         "favracket": "Nanospeed 8000",
         "hometown": "Beijing, China",
         "funfact": ":)"
+    },
+    {
+        "firstname": "Xinguo",
+        "lastname": "Peng",
+        "email": "xp62@cornell.com",
+        "major": "Applied Economics and Management",
+        "gradyear": "2022",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Beijing, China",
+        "funfact": "As a certified badminton referee, ask me anything about badminton :-) And I always wanted to train my cat to fetch shuttles."
     },
     {
         "firstname": "Emily",
