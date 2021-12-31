@@ -2034,12 +2034,14 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background: #B31B1B;
+			color:#fff
 		}
 
 			.wrapper.style2 .title {
 				background: #B31B1B;
 				color: #fff;
 			}
+			
 			
 
 		.wrapper.style3 {
