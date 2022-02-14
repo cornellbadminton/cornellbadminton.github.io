@@ -10,6 +10,16 @@
         "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
     },
     {
+        "firstname": "Catherine",
+        "lastname": "Li",
+        "email": "cl945@cornell.edu",
+        "major": "Food Science",
+        "gradyear": "2025",
+        "favracket": "Yonex Astrox 99",
+        "hometown": "Cupertino, CA",
+        "funfact": "I can wiggle my ears!"
+    },
+    {
         "firstname": "Netra",
         "lastname": "Shetty",
         "email": "nhs53@cornell.edu",
@@ -28,6 +38,16 @@
         "favracket": "Yonex Voltric 7",
         "hometown": "Whippany, NJ",
         "funfact": "I microwave my apples because my teeth are cold-sensitive."
+    },
+    {
+        "firstname": "Michael",
+        "lastname": "Liang",
+        "email": "ml2226@cornell.edu",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2024",
+        "favracket": "Li-Ning Aeronaut 9000i",
+        "hometown": "Mesa, AZ, USA",
+        "funfact": "I'm a troll :)"
     },
     {
         "firstname": "Amy",
@@ -60,6 +80,36 @@
         "funfact": "I'm extraordinarily bad at tennis."
     },
     {
+        "firstname": "Matthias",
+        "lastname": "Lai",
+        "email": "mml242@cornell.edu",
+        "major": "Animal Science",
+        "gradyear": "2023",
+        "favracket": "Yonex Armortec 900 Technique",
+        "hometown": "Cupertino, CA",
+        "funfact": "I have four cats and they're all named after food :D"
+    },
+    {
+        "firstname": "Felisha",
+        "lastname": "Li",
+        "email": "fal46@cornell.edu",
+        "major": "Biological Sciences",
+        "gradyear": "2022",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Fremont, CA",
+        "funfact": "My cousin's cousin is related to Simu Liu."
+    },
+    {
+        "firstname": "Yiqi",
+        "lastname": "Jiang",
+        "email": "yj89@cornell.edu",
+        "major": "Electrical and Computer Engineering + Computer Science",
+        "gradyear": "2022",
+        "favracket": "Nanospeed 8000",
+        "hometown": "Beijing, China",
+        "funfact": ":)"
+    },
+    {
         "firstname": "Frances",
         "lastname": "Lee",
         "email": "fl296@cornell.edu",
@@ -70,14 +120,14 @@
         "funfact": "I'm right handed but I eat with my left."
     },
     {
-        "firstname": "Ridhit",
-        "lastname": "Bhura",
-        "email": "rb749@cornell.edu",
-        "major": "Computer Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Mumbai, MH, India",
-        "funfact": "I've been singing Indian classical music for over 8 years."
+        "firstname": "Priyam",
+        "lastname": "Patel",
+        "email": "pp386@cornell.edu",
+        "major": "Electrical & Computer Engineering",
+        "gradyear": "2022",
+        "favracket": "Yonex ArcSaber 7",
+        "hometown": "Ahmedabad, GJ, India",
+        "funfact": "I am super tall but suck at basketball."
     },
     {
         "firstname": "Shreyas",

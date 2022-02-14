@@ -1,33 +1,13 @@
 [
     {
-        "firstname": "Michael",
-        "lastname": "Liang",
-        "email": "ml2226@cornell.edu",
-        "major": "Electrical and Computer Engineering",
+        "firstname": "Ridhit",
+        "lastname": "Bhura",
+        "email": "rb749@cornell.edu",
+        "major": "Computer Science",
         "gradyear": "2024",
-        "favracket": "Li-Ning Aeronaut 9000i",
-        "hometown": "Mesa, AZ, USA",
-        "funfact": "I'm a troll :)"
-    },
-    {
-        "firstname": "Felisha",
-        "lastname": "Li",
-        "email": "fal46@cornell.edu",
-        "major": "Biological Sciences",
-        "gradyear": "2022",
         "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Fremont, CA",
-        "funfact": "My cousin's cousin is related to Simu Liu."
-    },
-    {
-        "firstname": "Yiqi",
-        "lastname": "Jiang",
-        "email": "yj89@cornell.edu",
-        "major": "Electrical and Computer Engineering + Computer Science",
-        "gradyear": "2022",
-        "favracket": "Nanospeed 8000",
-        "hometown": "Beijing, China",
-        "funfact": ":)"
+        "hometown": "Mumbai, MH, India",
+        "funfact": "I've been singing Indian classical music for over 8 years."
     },
     {
         "firstname": "Xinguo",
