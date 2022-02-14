@@ -3,7 +3,7 @@ function appendData(data) {
     for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
         //these are handled two at a time due to two entries 
-        //exisiting within each column
+        //existing within each column
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var email1 = data[i].email;
         var major1 = data[i].major;
@@ -85,10 +85,9 @@ function appendData(data) {
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(div1_1);
-    
     }
     if (data.length%2 == 1) {
-        //if odd # entries, last person gets own their own column
+        //if odd # entries, last person gets their own column
         i = data.length - 1
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var email1 = data[i].email;
@@ -129,6 +128,15 @@ function appendData(data) {
         div1_3.appendChild(displaymajoryear1);
         div1_3.appendChild(displayinfo1);
         div1_1.appendChild(div1_3);
+
+        //filler div
+        var div1_4 = document.createElement("div");
+        div1_4.classList.add('rostercolumnpfp');
+        var div1_5 = document.createElement("div");
+        div1_5.classList.add('rostercolumn');
+        div1_1.appendChild(div1_4);
+        div1_1.appendChild(div1_5);
+
         mainContainer.appendChild(div1_1);
     }
 }
