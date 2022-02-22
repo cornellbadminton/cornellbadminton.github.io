@@ -85,10 +85,10 @@ function appendData(data) {
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(div1_1);
-    }
-    if (data.length%2 == 1) {
-        //if odd # entries, last person gets their own column
-        i = data.length - 1
+    };
+    if (data.length % 2 == 1) {
+        //if odd # entries, last person gets their own row
+        i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var email1 = data[i].email;
         var major1 = data[i].major;
@@ -123,7 +123,7 @@ function appendData(data) {
         displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact1
+            <b>Fun Fact:</b> ` + funfact1;
         div1_3.appendChild(displayname1);
         div1_3.appendChild(displaymajoryear1);
         div1_3.appendChild(displayinfo1);
@@ -138,5 +138,5 @@ function appendData(data) {
         div1_1.appendChild(div1_5);
 
         mainContainer.appendChild(div1_1);
-    }
-}
+    };
+};
