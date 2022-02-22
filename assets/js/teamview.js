@@ -6,7 +6,7 @@ function appendData(data) {
         //existing within each column
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
-        var last1 = data[i].firstname;
+        var last1 = data[i].lastname;
         var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
@@ -16,7 +16,7 @@ function appendData(data) {
 
         var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
         var first2 = data[i+1].firstname;
-        var last2 = data[i+1].firstname;
+        var last2 = data[i+1].lastname;
         var email2 = data[i+1].email;
         var major2 = data[i+1].major;
         var gradyear2 = data[i+1].gradyear;
@@ -95,7 +95,7 @@ function appendData(data) {
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
-        var last1 = data[i].firstname;
+        var last1 = data[i].lastname;
         var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
