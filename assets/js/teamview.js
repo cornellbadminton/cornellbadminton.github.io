@@ -97,6 +97,14 @@ function appendData(data) {
         var hometown1 = data[i].hometown;
         var funfact1 = data[i].funfact;
 
+        var name2 = ' ';
+        var email2 = ' ';
+        var major2 = ' ';
+        var gradyear2 = ' ';
+        var favracket2 = ' ';
+        var hometown2 = ' ';
+        var funfact2 = ' ';
+
         var div1_1 = document.createElement("div");
         div1_1.classList.add('rosterrow');
 
@@ -123,20 +131,46 @@ function appendData(data) {
         displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact1;
+            <b>Fun Fact:</b> ` + funfact1
         div1_3.appendChild(displayname1);
         div1_3.appendChild(displaymajoryear1);
         div1_3.appendChild(displayinfo1);
         div1_1.appendChild(div1_3);
 
-        //filler div
+        /////////////////////////////////////////////////////////second row in column
+
         var div1_4 = document.createElement("div");
         div1_4.classList.add('rostercolumnpfp');
+        div1_1.appendChild(div1_4)
+
+        /*
+        var pfpelement2 = document.createElement("img");
+        pfpelement2.setAttribute('src', 'images/' + name2.toLowerCase() + '.png');
+        pfpelement2.setAttribute('alt', name2);
+        pfpelement2.setAttribute('height', '200px');
+        pfpelement2.setAttribute('width', '200px');
+        pfpelement2.setAttribute('align', 'right');
+        div1_2.appendChild(pfpelement2);
+        */
+
         var div1_5 = document.createElement("div");
         div1_5.classList.add('rostercolumn');
-        div1_1.appendChild(div1_4);
-        div1_1.appendChild(div1_5);
 
+        var displayname2 = document.createElement('H3');
+        displayname2.innerHTML = name2;
+        var displaymajoryear2 = document.createElement('H2');
+        displaymajoryear2.innerHTML = major2 + "  " + gradyear2;
+        var displayinfo2 = document.createElement('p');
+        displayinfo2.innerHTML = "<b>Email:</b> " + email2 + "<br>" + `
+            <b>Favorite Racket:</b> ` + favracket2 + "<br>" + `
+            <b>Hometown:</b> ` + hometown2 + "<br>" + `
+            <b>Fun Fact:</b> ` + funfact2
+        div1_5.appendChild(displayname2);
+        div1_5.appendChild(displaymajoryear2);
+        div1_5.appendChild(displayinfo2);
+        div1_1.appendChild(div1_5);
+        //var div = document.createElement("div");
+        //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(div1_1);
     };
 };
