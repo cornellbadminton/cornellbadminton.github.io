@@ -32,7 +32,7 @@ function appendData(data) {
         div1_1.appendChild(div1_2);
 
         var pfpelement1 = document.createElement("img");
-        pfpelement1.setAttribute('src', 'images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
+        pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
         pfpelement1.setAttribute('height', '200px');
         pfpelement1.setAttribute('width', '200px');
@@ -63,7 +63,7 @@ function appendData(data) {
         div1_1.appendChild(div1_4)
 
         var pfpelement2 = document.createElement("img");
-        pfpelement2.setAttribute('src', 'images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
+        pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
         pfpelement2.setAttribute('alt', name2);
         pfpelement2.setAttribute('height', '200px');
         pfpelement2.setAttribute('width', '200px');
