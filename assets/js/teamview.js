@@ -68,7 +68,7 @@ function appendData(data) {
         pfpelement2.setAttribute('height', '200px');
         pfpelement2.setAttribute('width', '200px');
         pfpelement2.setAttribute('align', 'right');
-        div1_2.appendChild(pfpelement2);
+        div1_4.appendChild(pfpelement2);
 
         var div1_5 = document.createElement("div");
         div1_5.classList.add('rostercolumn');
@@ -90,7 +90,7 @@ function appendData(data) {
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(div1_1);
     };
-    if (data.length % 2 == 1) {
+    if (true) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
