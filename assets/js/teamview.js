@@ -1,6 +1,6 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
-    /*for (var i = 0; i < data.length; i+=2) {
+    for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
         //these are handled two at a time due to two entries 
         //existing within each column
@@ -89,7 +89,7 @@ function appendData(data) {
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
-    }*/
+    }
 
     if (true) {
         //if odd # entries, last person gets their own row
