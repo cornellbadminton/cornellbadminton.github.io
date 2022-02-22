@@ -93,7 +93,7 @@ function appendData(data) {
 
     if (true) {
         //if odd # entries, last person gets their own row
-        i = data.length - 2;
+        i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
         var last1 = data[i].lastname;
