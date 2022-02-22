@@ -5,6 +5,8 @@ function appendData(data) {
         //these are handled two at a time due to two entries 
         //existing within each column
         var name1 = data[i].firstname + ' ' + data[i].lastname;
+        var first1 = data[i].firstname;
+        var last1 = data[i].firstname;
         var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
@@ -12,7 +14,9 @@ function appendData(data) {
         var hometown1 = data[i].hometown;
         var funfact1 = data[i].funfact;
 
-        var name2 = data[i+1].firstname + ' ' + data[i].lastname;
+        var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
+        var first2 = data[i+1].firstname;
+        var last2 = data[i+1].firstname;
         var email2 = data[i+1].email;
         var major2 = data[i+1].major;
         var gradyear2 = data[i+1].gradyear;
@@ -28,7 +32,7 @@ function appendData(data) {
         div1_1.appendChild(div1_2);
 
         var pfpelement1 = document.createElement("img");
-        pfpelement1.setAttribute('src', 'images/' + name1.toLowerCase() + '.png');
+        pfpelement1.setAttribute('src', 'images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
         pfpelement1.setAttribute('height', '200px');
         pfpelement1.setAttribute('width', '200px');
@@ -59,7 +63,7 @@ function appendData(data) {
         div1_1.appendChild(div1_4)
 
         var pfpelement2 = document.createElement("img");
-        pfpelement2.setAttribute('src', 'images/' + name2.toLowerCase() + '.png');
+        pfpelement2.setAttribute('src', 'images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
         pfpelement2.setAttribute('alt', name2);
         pfpelement2.setAttribute('height', '200px');
         pfpelement2.setAttribute('width', '200px');
