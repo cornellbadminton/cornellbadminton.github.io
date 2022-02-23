@@ -145,7 +145,8 @@ function appendData(data) {
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
-        mainContainer.appendChild(oddlastperson);
+        if (i == data.length - 1) {
+            mainContainer.appendChild(oddlastperson);
+        };
     };
-    
-}
+};
