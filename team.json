@@ -80,6 +80,16 @@
         "funfact": "I have four cats and they're all named after food :D"
     },
     {
+        "firstname": "Shreyas",
+        "lastname": "Kotian",
+        "email": "spk59@cornell.edu",
+        "major": "Mechanical Engineering",
+        "gradyear": "2023",
+        "favracket": "Yonex Duora 10",
+        "hometown": "Mumbai, India",
+        "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
+    },
+    {
         "firstname": "Felisha",
         "lastname": "Li",
         "email": "fal46@cornell.edu",
@@ -118,16 +128,6 @@
         "favracket": "Yonex ArcSaber 7",
         "hometown": "Ahmedabad, GJ, India",
         "funfact": "I am super tall but suck at basketball."
-    },
-    {
-        "firstname": "Shreyas",
-        "lastname": "Kotian",
-        "email": "spk59@cornell.edu",
-        "major": "Mechanical Engineering",
-        "gradyear": "2023",
-        "favracket": "Yonex Duora 10",
-        "hometown": "Mumbai, India",
-        "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
     },
     {
         "firstname": "Jiren",
