@@ -1,8 +1,9 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
+    var rowlist = [];
     for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
-        //these are handled two at a time due to two entries 
+        //these are handled two at a time due to two entries
         //existing within each column
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
@@ -88,7 +89,8 @@ function appendData(data) {
         full_row.appendChild(column_2_info);
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-        mainContainer.appendChild(full_row);
+        rowlist.push(full_row);
+        //mainContainer.appendChild(full_row);
     }
 
     if (true) {
@@ -144,6 +146,11 @@ function appendData(data) {
         column_2_info.classList.add('rostercolumn');
         full_row.appendChild(column_2_info);
 
+        rowlist.push(full_row);
+    }
+
+    for (index = 0; index < rowlist.length; index++) {
+        full_row = rowlist[index];
         mainContainer.appendChild(full_row);
-    };
+    }
 }
