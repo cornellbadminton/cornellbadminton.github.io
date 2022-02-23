@@ -1,7 +1,7 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
     var oddlastperson;
-    if (true) {
+    if (data.length % 2 == 1) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
