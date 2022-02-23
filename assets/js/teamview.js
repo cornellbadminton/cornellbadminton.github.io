@@ -1,5 +1,6 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
+    var oddlastperson;
     if (true) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
@@ -53,7 +54,7 @@ function appendData(data) {
         column_2_info.classList.add('rostercolumn');
         full_row.appendChild(column_2_info);
 
-        mainContainer.appendChild(full_row);
+        oddlastperson = full_row;
     };
     for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
@@ -145,4 +146,5 @@ function appendData(data) {
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
     };
+    mainContainer.appendChild(oddlastperson);
 }
