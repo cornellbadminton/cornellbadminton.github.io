@@ -1,6 +1,7 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
     var oddlastperson;
+    var isoddlastperson = false;
     if (data.length % 2 == 1) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
@@ -47,16 +48,15 @@ function appendData(data) {
         full_row.appendChild(column_1_info);
 
         //filler space
-        /*
         var column_2_img = document.createElement("div");
         column_2_img.classList.add('rostercolumnpfp');
         full_row.appendChild(column_2_img);
         var column_2_info = document.createElement("div");
         column_2_info.classList.add('rostercolumn');
         full_row.appendChild(column_2_info);
-        */
 
-        mainContainer.appendChild(full_row);
+        oddlastperson = full_row;
+        isoddlastperson = true;
     };
     for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
@@ -147,6 +147,8 @@ function appendData(data) {
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
-        };
+    };
+    if (isoddlastperson) {
+        mainContainer.appendChild(oddlastperson);
     };
 };
