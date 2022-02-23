@@ -118,7 +118,7 @@ function appendData(data) {
 
         var column_2_img = document.createElement("div");
         column_2_img.classList.add('rostercolumnpfp');
-        full_row.appendChild(column_2_img)
+        full_row.appendChild(column_2_img);
 
         var pfpelement2 = document.createElement("img");
         pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
@@ -139,7 +139,7 @@ function appendData(data) {
         displayinfo2.innerHTML = "<b>Email:</b> " + email2 + "<br>" + `
             <b>Favorite Racket:</b> ` + favracket2 + "<br>" + `
             <b>Hometown:</b> ` + hometown2 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact2
+            <b>Fun Fact:</b> ` + funfact2;
         column_2_info.appendChild(displayname2);
         column_2_info.appendChild(displaymajoryear2);
         column_2_info.appendChild(displayinfo2);
