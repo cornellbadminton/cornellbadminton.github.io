@@ -1,63 +1,5 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
-    var oddlastperson;
-    var isoddlastperson = false;
-    if (data.length % 2 == 1) {
-        //if odd # entries, last person gets their own row
-        i = data.length - 1;
-        var name1 = data[i].firstname + ' ' + data[i].lastname;
-        var first1 = data[i].firstname;
-        var last1 = data[i].lastname;
-        var email1 = data[i].email;
-        var major1 = data[i].major;
-        var gradyear1 = data[i].gradyear;
-        var favracket1 = data[i].favracket;
-        var hometown1 = data[i].hometown;
-        var funfact1 = data[i].funfact;
-
-        var full_row = document.createElement("div");
-        full_row.classList.add('rosterrow');
-
-        var column_1_img = document.createElement("div");
-        column_1_img.classList.add('rostercolumnpfp');
-        full_row.appendChild(column_1_img);
-
-        var pfpelement1 = document.createElement("img");
-        pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
-        pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '200px');
-        pfpelement1.setAttribute('width', '200px');
-        pfpelement1.setAttribute('align', 'right');
-        column_1_img.appendChild(pfpelement1);
-
-        var column_1_info = document.createElement("div");
-        column_1_info.classList.add('rostercolumn');
-
-        var displayname1 = document.createElement('H3');
-        displayname1.innerHTML = name1;
-        var displaymajoryear1 = document.createElement('H2');
-        displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
-        var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
-            <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
-            <b>Hometown:</b> ` + hometown1 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact1
-        column_1_info.appendChild(displayname1);
-        column_1_info.appendChild(displaymajoryear1);
-        column_1_info.appendChild(displayinfo1);
-        full_row.appendChild(column_1_info);
-
-        //filler space
-        var column_2_img = document.createElement("div");
-        column_2_img.classList.add('rostercolumnpfp');
-        full_row.appendChild(column_2_img);
-        var column_2_info = document.createElement("div");
-        column_2_info.classList.add('rostercolumn');
-        full_row.appendChild(column_2_info);
-
-        oddlastperson = full_row;
-        isoddlastperson = true;
-    };
     for (var i = 0; i < data.length; i+=2) {
         //handle the first even number of team entries
         //these are handled two at a time due to two entries
@@ -148,7 +90,59 @@ function appendData(data) {
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
     };
-    if (isoddlastperson) {
-        mainContainer.appendChild(oddlastperson);
+    if (data.length % 2 == 1) {
+        //if odd # entries, last person gets their own row
+        i = data.length - 1;
+        var name1 = data[i].firstname + ' ' + data[i].lastname;
+        var first1 = data[i].firstname;
+        var last1 = data[i].lastname;
+        var email1 = data[i].email;
+        var major1 = data[i].major;
+        var gradyear1 = data[i].gradyear;
+        var favracket1 = data[i].favracket;
+        var hometown1 = data[i].hometown;
+        var funfact1 = data[i].funfact;
+
+        var full_row = document.createElement("div");
+        full_row.classList.add('rosterrow');
+
+        var column_1_img = document.createElement("div");
+        column_1_img.classList.add('rostercolumnpfp');
+        full_row.appendChild(column_1_img);
+
+        var pfpelement1 = document.createElement("img");
+        pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
+        pfpelement1.setAttribute('alt', name1);
+        pfpelement1.setAttribute('height', '200px');
+        pfpelement1.setAttribute('width', '200px');
+        pfpelement1.setAttribute('align', 'right');
+        column_1_img.appendChild(pfpelement1);
+
+        var column_1_info = document.createElement("div");
+        column_1_info.classList.add('rostercolumn');
+
+        var displayname1 = document.createElement('H3');
+        displayname1.innerHTML = name1;
+        var displaymajoryear1 = document.createElement('H2');
+        displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
+        var displayinfo1 = document.createElement('p');
+        displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
+            <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
+            <b>Hometown:</b> ` + hometown1 + "<br>" + `
+            <b>Fun Fact:</b> ` + funfact1
+        column_1_info.appendChild(displayname1);
+        column_1_info.appendChild(displaymajoryear1);
+        column_1_info.appendChild(displayinfo1);
+        full_row.appendChild(column_1_info);
+
+        //filler space
+        var column_2_img = document.createElement("div");
+        column_2_img.classList.add('rostercolumnpfp');
+        full_row.appendChild(column_2_img);
+        var column_2_info = document.createElement("div");
+        column_2_info.classList.add('rostercolumn');
+        full_row.appendChild(column_2_info);
+
+        mainContainer.appendChild(full_row);
     };
 };
