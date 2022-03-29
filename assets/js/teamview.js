@@ -143,6 +143,7 @@ function appendData(data) {
         column_2_info.classList.add('rostercolumn');
         full_row.appendChild(column_2_info);
 
-        mainContainer.appendChild(full_row);
+        var mc = document.getElementById("myData");
+        mc.appendChild(full_row);
     };
 };
