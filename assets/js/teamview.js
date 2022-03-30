@@ -90,7 +90,7 @@ function appendData(data) {
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
     };
-    if (data.length % 2 == 1) {
+    if (data.length % 2 == 0) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
@@ -143,7 +143,6 @@ function appendData(data) {
         column_2_info.classList.add('rostercolumn');
         full_row.appendChild(column_2_info);
 
-        var mc = document.getElementById("myData");
-        mc.appendChild(full_row);
+        mainContainer.appendChild(full_row);
     };
 };
