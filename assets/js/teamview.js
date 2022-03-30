@@ -91,7 +91,7 @@ function appendData(data) {
         mainContainer.appendChild(full_row);
     };
     //data.length % 2 == 0
-    if (data.length%2 == 1) {
+    if (true) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
