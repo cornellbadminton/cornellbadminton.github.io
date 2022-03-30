@@ -50,7 +50,7 @@ function appendData(data) {
         displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact1
+            <b>Fun Fact:</b> ` + funfact1 + data.length.toString()
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
         column_1_info.appendChild(displayinfo1);
@@ -91,7 +91,7 @@ function appendData(data) {
         mainContainer.appendChild(full_row);
     };
     //data.length % 2 == 0
-    if (data.length % 2 == 1) {
+    if (data.length%2 == 1) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
         var name1 = data[i].firstname + ' ' + data[i].lastname;
