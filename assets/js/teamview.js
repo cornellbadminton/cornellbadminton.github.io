@@ -50,7 +50,7 @@ function appendData(data) {
         displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
-            <b>Fun Fact:</b> ` + funfact1 + data.length.toString()
+            <b>Fun Fact:</b> ` + funfact1
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
         column_1_info.appendChild(displayinfo1);
