@@ -90,7 +90,6 @@ function appendData(data) {
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
         mainContainer.appendChild(full_row);
     };
-    //data.length % 2 == 0
     if (data.length % 2 == 1) {
         //if odd # entries, last person gets their own row
         i = data.length - 1;
