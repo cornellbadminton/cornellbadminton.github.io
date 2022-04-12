@@ -1,6 +1,6 @@
 function appendData(data) {
     var mainContainer = document.getElementById("myData");
-    for (var i = 0; i < data.length-1; i+=2) {
+    for (var i = 0; i < data.length-2; i+=2) {
         //handle the first even number of team entries
         //these are handled two at a time due to two entries
         //existing within each column
