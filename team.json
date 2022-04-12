@@ -60,6 +60,16 @@
         "funfact": "I have hyperextended knees and double-jointed fingers!"
     },
     {
+        "firstname": "Michael",
+        "lastname": "Liang",
+        "email": "ml2226@cornell.edu",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2024",
+        "favracket": "Li-Ning Aeronaut 9000i",
+        "hometown": "Mesa, AZ, USA",
+        "funfact": "I'm a troll :)"
+    },
+    {
         "firstname": "Alex",
         "lastname": "Sheft",
         "email": "aps322@cornell.edu",
