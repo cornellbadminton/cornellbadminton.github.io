@@ -83,7 +83,7 @@ function appendData(data) {
         displaymajoryear2.innerHTML = major2 + " | " + gradyear2;
         var displayinfo2 = document.createElement('p');
         displayinfo2.innerHTML = "<b>Email:</b> " + email2;
-        column_1_info.appendChild(displaypos2);
+        column_2_info.appendChild(displaypos2);
         column_2_info.appendChild(displayname2);
         column_2_info.appendChild(displaymajoryear2);
         column_2_info.appendChild(displayinfo2);
