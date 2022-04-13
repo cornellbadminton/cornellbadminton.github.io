@@ -51,7 +51,8 @@ function appendData(data) {
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
         var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1
+        displayinfo1.innerHTML = "<b>Email:</b> " + email1;
+        column_1_info.appendChild(displaypos1);
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
         column_1_info.appendChild(displayinfo1);
@@ -81,7 +82,8 @@ function appendData(data) {
         var displaymajoryear2 = document.createElement('H2');
         displaymajoryear2.innerHTML = major2 + " | " + gradyear2;
         var displayinfo2 = document.createElement('p');
-        displayinfo2.innerHTML = "<b>Email:</b> " + email2
+        displayinfo2.innerHTML = "<b>Email:</b> " + email2;
+        column_1_info.appendChild(displaypos2);
         column_2_info.appendChild(displayname2);
         column_2_info.appendChild(displaymajoryear2);
         column_2_info.appendChild(displayinfo2);
@@ -129,7 +131,8 @@ function appendData(data) {
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
         var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1
+        displayinfo1.innerHTML = "<b>Email:</b> " + email1;
+        column_1_info.appendChild(displaypos1);
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
         column_1_info.appendChild(displayinfo1);
