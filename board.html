@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cornell Badminton Club</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/roster.css"/>
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			/* Container for flexboxes */
+			.rosterrow {
+			  display: flex;
+			  flex-wrap: wrap;
+			}
+			/* Create four equal columns */
+			.rostercolumnpfp {
+			  flex: 20%;
+			  padding: 25px;
+			}
+			.rostercolumn {
+			  flex: 30%;
+			  padding: 25px;
+			}
+			/* On screens that are 992px wide or less, go from four columns to two columns */
+			@media screen and (max-width: 1280px) {
+				.rostercolumnpfp {
+			  	flex: 50%;
+			}
+				.rostercolumn {
+				flex: 50%;
+			  }
+			}
+
+			@media screen and (max-width: 540px) {
+        	.rostercolumnpfp {
+        	display: none !important;
+    			}
+			}
+		</style>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<section id="header" class="wrapper">
+
+				<!-- Logo -->
+					<div id="logo">
+						<h1>Cornell Badminton Club</h1>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li>
+								<a href="team.html">Team</a>
+									<ul>
+										<li><a href="team.html">Current Team</a></li>
+										<li><a href="alumni.html">Alumni</a></li>
+                                        <li><a href="board.html">Board</a></li>
+									</ul>
+							</li>
+							<li><a href="awards.html">Awards</a></li>
+							<li><a href="media.html">Media</a></li>
+						</ul>
+					</nav>
+
+			</section>
+
+			<!-- Main -->
+      <div id="main" class="wrapper style3">
+        <div class="title">2021-2022 Executive Board</div>
+        <div class="container">
+            <div class="rosterrow">
+                <div class="rostercolumnpfp">
+                    <img src="images/daniel_zhan.png" alt="Daniel Zhan" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Team Captain</p>
+                  <h3>Daniel Zhan</h3>
+                  <h2>Engineering Physics + Computer Science | 2023</h2>
+                  <p><b>Email:</b> dz268@cornell.edu<br>
+                </div>
+    
+                <div class="rostercolumnpfp">
+                    <img src="images/alex_sheft.png" alt="Alex Sheft" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>President</p>
+                  <h3>Alex Sheft</h3>
+                  <h2>Biology | 2023</h2>
+                  <p><b>Email:</b> aps322@cornell.edu<br>
+                </div>
+              </div>
+
+              <div class="rosterrow">
+                <div class="rostercolumnpfp">
+                    <img src="images/frances_lee.png" alt="Franny Lee" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Vice President</p>
+                  <h3>Franny Lee</h3>
+                  <h2>Electrical and Computer Engineering | 2022</h2>
+                  <p><b>Email:</b> fl296@cornell.edu<br>
+                </div>
+    
+                <div class="rostercolumnpfp">
+                    <img src="images/amy_gong.png" alt="Amy Gong" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Secretary</p>
+                  <h3>Amy Gong</h3>
+                  <h2>Computer Science | 2024</h2>
+                  <p><b>Email:</b> ajg254@cornell.edu<br>
+                </div>
+              </div>
+
+              <div class="rosterrow">
+                <div class="rostercolumnpfp">
+                    <img src="images/emily_hu.png" alt="Emily Hu" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Treasurer</p>
+                  <h3>Emily Hu</h3>
+                  <h2>Mathematics | 2025</h2>
+                  <p><b>Email:</b> exh2@cornell.edu<br>
+                </div>
+    
+                <div class="rostercolumnpfp">
+                    <img src="images/netra_shetty.png" alt="Netra Shetty" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Social Media Chair</p>
+                  <h3>Netra Shetty</h3>
+                  <h2>Biological Sciences | 2025</h2>
+                  <p><b>Email:</b> nhs53@cornell.edu<br>
+                </div>
+              </div>
+
+              <div class="rosterrow">
+                <div class="rostercolumnpfp">
+                    <img src="images/janice_lee.png" alt="Janice Lee" width="200" height="200" align='right'/>
+                </div>
+                
+                <div class="rostercolumn">
+                    <p>Webmaster</p>
+                  <h3>Janice Lee</h3>
+                  <h2>Information Science | 2024</h2>
+                  <p><b>Email:</b> jl2838@cornell.edu<br>
+                </div>
+                <div class="rostercolumnpfp">
+                </div>
+                
+                <div class="rostercolumn">
+                </div>
+              </div>
+              </div>
+        </div>
+      </div>
+			<!-- Footer -->
+			<section id="footer" class="wrapper">
+				<div class="title">&copy; Cornell Badminton 2022</div>
+				<center>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/cornellbadminton/?hl=en" class="icon brands fa-instagram alt" 
+						style="color:rgb(77, 77, 77); font-size: 2em;"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.facebook.com/BigRedBadminton/" class="icon brands fa-facebook-f alt" 
+						style="color:rgb(77, 77, 77); font-size: 2em;"><span class="label">Facebook</span></a></li>
+					</ul>
+					<p style="color:rgb(77, 77, 77);">Website by Daniel Zhan. Styling by @ajlkn for <u>HTML5 UP</u>.</p>
+				</center>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+
+	</body>
+</html>
