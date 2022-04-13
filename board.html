@@ -75,97 +75,21 @@
 			<!-- Main -->
       <div id="main" class="wrapper style3">
         <div class="title">2021-2022 Executive Board</div>
-        <div class="container">
-            <div class="rosterrow">
-                <div class="rostercolumnpfp">
-                    <img src="images/daniel_zhan.png" alt="Daniel Zhan" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Team Captain</p>
-                  <h3>Daniel Zhan</h3>
-                  <h2>Engineering Physics + Computer Science | 2023</h2>
-                  <p><b>Email:</b> dz268@cornell.edu<br>
-                </div>
-    
-                <div class="rostercolumnpfp">
-                    <img src="images/alex_sheft.png" alt="Alex Sheft" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>President</p>
-                  <h3>Alex Sheft</h3>
-                  <h2>Biology | 2023</h2>
-                  <p><b>Email:</b> aps322@cornell.edu<br>
-                </div>
-              </div>
-
-              <div class="rosterrow">
-                <div class="rostercolumnpfp">
-                    <img src="images/frances_lee.png" alt="Franny Lee" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Vice President</p>
-                  <h3>Franny Lee</h3>
-                  <h2>Electrical and Computer Engineering | 2022</h2>
-                  <p><b>Email:</b> fl296@cornell.edu<br>
-                </div>
-    
-                <div class="rostercolumnpfp">
-                    <img src="images/amy_gong.png" alt="Amy Gong" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Secretary</p>
-                  <h3>Amy Gong</h3>
-                  <h2>Computer Science | 2024</h2>
-                  <p><b>Email:</b> ajg254@cornell.edu<br>
-                </div>
-              </div>
-
-              <div class="rosterrow">
-                <div class="rostercolumnpfp">
-                    <img src="images/emily_hu.png" alt="Emily Hu" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Treasurer</p>
-                  <h3>Emily Hu</h3>
-                  <h2>Mathematics | 2025</h2>
-                  <p><b>Email:</b> exh2@cornell.edu<br>
-                </div>
-    
-                <div class="rostercolumnpfp">
-                    <img src="images/netra_shetty.png" alt="Netra Shetty" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Social Media Chair</p>
-                  <h3>Netra Shetty</h3>
-                  <h2>Biological Sciences | 2025</h2>
-                  <p><b>Email:</b> nhs53@cornell.edu<br>
-                </div>
-              </div>
-
-              <div class="rosterrow">
-                <div class="rostercolumnpfp">
-                    <img src="images/janice_lee.png" alt="Janice Lee" width="200" height="200" align='right'/>
-                </div>
-                
-                <div class="rostercolumn">
-                    <p>Webmaster</p>
-                  <h3>Janice Lee</h3>
-                  <h2>Information Science | 2024</h2>
-                  <p><b>Email:</b> jl2838@cornell.edu<br>
-                </div>
-                <div class="rostercolumnpfp">
-                </div>
-                
-                <div class="rostercolumn">
-                </div>
-              </div>
-              </div>
+        <div id="myData"></div>
+		  <div id="myDataExtra"></div>
+          <script type="text/javascript" src="assets/js/boardview.js"></script>
+          <script>
+              fetch('board.json')
+                  .then(function (response) {
+                      return response.json();
+                  })
+                  .then(function (data) {
+                      appendData(data);
+                  })
+                  .catch(function (err) {
+                      console.log('error: ' + err);
+                  });    
+          </script>
         </div>
       </div>
 			<!-- Footer -->
