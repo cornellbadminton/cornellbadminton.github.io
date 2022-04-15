@@ -38,25 +38,27 @@ function toggle_former(data) {
         var pfpelement1 = document.createElement("img");
         pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '100px');
-        pfpelement1.setAttribute('width', '100px');
+        pfpelement1.setAttribute('height', '75px');
+        pfpelement1.setAttribute('width', '75px');
         pfpelement1.setAttribute('align', 'right');
         column_1_img.appendChild(pfpelement1);
-        var pfpelement2 = document.createElement("img");
-        pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
-        pfpelement2.setAttribute('alt', name2);
-        pfpelement2.setAttribute('height', '100px');
-        pfpelement2.setAttribute('width', '100px');
-        pfpelement2.setAttribute('align', 'right');
-        column_1_img.appendChild(pfpelement2);
+        if (name1 != name2) {
+            var pfpelement2 = document.createElement("img");
+            pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
+            pfpelement2.setAttribute('alt', name2);
+            pfpelement2.setAttribute('height', '75px');
+            pfpelement2.setAttribute('width', '75px');
+            pfpelement2.setAttribute('align', 'right');
+            column_1_img.appendChild(pfpelement2);
+        }
 
         var column_1_info = document.createElement("div");
         column_1_info.classList.add('rostercolumn');
 
         var displaysem1 = document.createElement('p');
         displaysem1.innerHTML = semserved1
-        var displaycap1 = document.createElement('H3');
-        var displaypres1 = document.createElement('H3');
+        var displaycap1 = document.createElement('p');
+        var displaypres1 = document.createElement('p');
         if (pos1 == 'Team Captain') {
             displaycap1.innerHTML = "Team Captain: " + name1;
             displaypres1.innerHTML = "President: " + name2;
@@ -79,26 +81,28 @@ function toggle_former(data) {
         var pfpelement3 = document.createElement("img");
         pfpelement3.setAttribute('src', '../../images/' + first3.toLowerCase() + '_' + last3.toLowerCase() + '.png');
         pfpelement3.setAttribute('alt', name3);
-        pfpelement3.setAttribute('height', '100px');
-        pfpelement3.setAttribute('width', '100px');
+        pfpelement3.setAttribute('height', '75px');
+        pfpelement3.setAttribute('width', '75px');
         pfpelement3.setAttribute('align', 'right');
         column_2_img.appendChild(pfpelement3);
-        var pfpelement4 = document.createElement("img");
-        pfpelement4.setAttribute('src', '../../images/' + first4.toLowerCase() + '_' + last4.toLowerCase() + '.png');
-        pfpelement4.setAttribute('alt', name4);
-        pfpelement4.setAttribute('height', '100px');
-        pfpelement4.setAttribute('width', '100px');
-        pfpelement4.setAttribute('align', 'right');
-        column_2_img.appendChild(pfpelement4);
+        if (name3 != name4) {
+            var pfpelement4 = document.createElement("img");
+            pfpelement4.setAttribute('src', '../../images/' + first4.toLowerCase() + '_' + last4.toLowerCase() + '.png');
+            pfpelement4.setAttribute('alt', name4);
+            pfpelement4.setAttribute('height', '75px');
+            pfpelement4.setAttribute('width', '75px');
+            pfpelement4.setAttribute('align', 'right');
+            column_2_img.appendChild(pfpelement4);
+        }
 
         var column_2_info = document.createElement("div");
         column_2_info.classList.add('rostercolumn');
 
         var displaysem2 = document.createElement('p');
         displaysem2.innerHTML = semserved3
-        var displaycap2 = document.createElement('H3');
-        var displaypres2 = document.createElement('H3');
-        if (pos2 == 'Team Captain') {
+        var displaycap2 = document.createElement('p');
+        var displaypres2 = document.createElement('p');
+        if (pos3 == 'Team Captain') {
             displaycap2.innerHTML = "Team Captain: " + name3;
             displaypres2.innerHTML = "President: " + name4;
         }
