@@ -36,8 +36,8 @@ function appendData(data) {
         var pfpelement1 = document.createElement("img");
         pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '200px');
-        pfpelement1.setAttribute('width', '200px');
+        pfpelement1.setAttribute('height', '120px');
+        pfpelement1.setAttribute('width', '120px');
         pfpelement1.setAttribute('align', 'right');
         column_1_img.appendChild(pfpelement1);
 
@@ -67,8 +67,8 @@ function appendData(data) {
         var pfpelement2 = document.createElement("img");
         pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
         pfpelement2.setAttribute('alt', name2);
-        pfpelement2.setAttribute('height', '200px');
-        pfpelement2.setAttribute('width', '200px');
+        pfpelement2.setAttribute('height', '120px');
+        pfpelement2.setAttribute('width', '120px');
         pfpelement2.setAttribute('align', 'right');
         column_2_img.appendChild(pfpelement2);
 
@@ -116,8 +116,8 @@ function appendData(data) {
         var pfpelement1 = document.createElement("img");
         pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '200px');
-        pfpelement1.setAttribute('width', '200px');
+        pfpelement1.setAttribute('height', '120px');
+        pfpelement1.setAttribute('width', '120px');
         pfpelement1.setAttribute('align', 'right');
         column_1_img.appendChild(pfpelement1);
 
