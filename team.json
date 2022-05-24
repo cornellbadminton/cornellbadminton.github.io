@@ -40,6 +40,16 @@
         "funfact": "I once danced to \"Single Ladies (Put a Ring on It)\" while standing on a horse."
     },
     {
+        "firstname": "Michael",
+        "lastname": "Liang",
+        "email": "ml2226@cornell.edu",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2024",
+        "favracket": "Li-Ning Aeronaut 9000i",
+        "hometown": "Mesa, AZ, USA",
+        "funfact": "I'm a troll :)"
+    },
+    {
         "firstname": "Janice",
         "lastname" : "Lee",
         "email": "jl2838@cornell.edu",
@@ -98,26 +108,6 @@
         "favracket": "Yonex Duora 10",
         "hometown": "Mumbai, India",
         "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
-    },
-    {
-        "firstname": "Felisha",
-        "lastname": "Li",
-        "email": "fal46@cornell.edu",
-        "major": "Biological Sciences",
-        "gradyear": "2022",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Fremont, CA",
-        "funfact": "My cousin's cousin is related to Simu Liu."
-    },
-    {
-        "firstname": "Yiqi",
-        "lastname": "Jiang",
-        "email": "yj89@cornell.edu",
-        "major": "Electrical and Computer Engineering + Computer Science",
-        "gradyear": "2022",
-        "favracket": "Nanospeed 8000",
-        "hometown": "Beijing, China",
-        "funfact": ":)"
     },
     {
         "firstname": "Frances",
