@@ -23,17 +23,28 @@
     },
     {
         "position": "Vice President",
-        "firstname": "Frances",
-        "lastname": "Lee",
-        "email": "fl296@cornell.edu",
-        "major": "Electrical and Computer Engineering",
-        "gradyear": "2022",
-        "favracket": "Yonex ArcSaber 8",
-        "hometown": "Whippany, NJ",
-        "funfact": "I'm right handed but I eat with my left."
+        "firstname": "Emily",
+        "lastname": "Hu",
+        "email": "exh2@cornell.edu",
+        "major": "Mathematics + Computer Science",
+        "gradyear": "2025",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Vernon Hills, Illinois",
+        "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
     },
     {
         "position": "Secretary",
+        "firstname": "Catherine",
+        "lastname": "Li",
+        "email": "cl945@cornell.edu",
+        "major": "Food Science",
+        "gradyear": "2025",
+        "favracket": "Yonex Astrox 99",
+        "hometown": "Cupertino, CA",
+        "funfact": "I can wiggle my ears!"
+    },
+    {
+        "position": "Treasurer",
         "firstname": "Amy",
         "lastname": "Gong",
         "email": "ajg254@cornell.edu",
@@ -42,17 +53,6 @@
         "favracket": "Yonex Astrox 5FX",
         "hometown": "Philadelphia, PA",
         "funfact": "I have hyperextended knees and double-jointed fingers!"
-    },
-    {
-        "position": "Treasurer",
-        "firstname": "Emily",
-        "lastname": "Hu",
-        "email": "exh2@cornell.edu",
-        "major": "Mathematics",
-        "gradyear": "2025",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Vernon Hills, Illinois",
-        "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
     },
     {
         "position": "Social Media Chair",
@@ -64,16 +64,5 @@
         "favracket": "Yonex Astrox 77",
         "hometown": "San Jose, California",
         "funfact": "I fostered two 6 week old kittens over the summer!"
-    },
-    {
-        "position": "Webmaster",
-        "firstname": "Janice",
-        "lastname" : "Lee",
-        "email": "jl2838@cornell.edu",
-        "major": "Information Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Voltric 7",
-        "hometown": "Whippany, NJ",
-        "funfact": "I microwave my apples because my teeth are cold-sensitive."
     }
 ]
