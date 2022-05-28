@@ -1,5 +1,15 @@
 [
     {
+        "firstname": "Nithish",
+        "lastname": "Selvaraj",
+        "email": "nks80@rutgers.edu",
+        "major": "Economics",
+        "gradyear": "2030",
+        "favracket": "Louisville Slugger",
+        "hometown": "Edison, New Jersey",
+        "funfact": "I'm a vtuber."
+    },
+    {
         "firstname": "Emily",
         "lastname": "Hu",
         "email": "exh2@cornell.edu",
@@ -87,7 +97,7 @@
         "gradyear": "2023",
         "favracket": "Yonex Voltric 70",
         "hometown": "Edison, NJ",
-        "funfact": "I made this site - thanks for visiting! Playing badminton at Cornell changed my college experience for the better and I highly recommend you <em>swing</em> by and give it a <em>shot</em> :D"
+        "funfact": "Nithish's fun fact suggestions are horrible."
     },
     {
         "firstname": "Matthias",
