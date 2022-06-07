@@ -1,15 +1,5 @@
 [
     {
-        "firstname": "Nithish",
-        "lastname": "Selvaraj",
-        "email": "nks80@rutgers.edu",
-        "major": "Economics",
-        "gradyear": "2030",
-        "favracket": "Louisville Slugger",
-        "hometown": "Edison, NJ",
-        "funfact": "I'm a vtuber."
-    },
-    {
         "firstname": "Emily",
         "lastname": "Hu",
         "email": "exh2@cornell.edu",
@@ -97,7 +87,7 @@
         "gradyear": "2023",
         "favracket": "Yonex Voltric 70",
         "hometown": "Edison, NJ",
-        "funfact": "Nithish's fun fact suggestions are horrible."
+        "funfact": "Come play :) it'll be worth your while."
     },
     {
         "firstname": "Matthias",
