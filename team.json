@@ -1,5 +1,23 @@
 [
     {
+        "firstname": "Jacqueline",
+        "lastname": "Wen",
+        "major": "Computer Science",
+        "gradyear": "2026",
+        "favracket": "Yonex Nanoflare 800LT",
+        "hometown": "San Jose, CA",
+        "funfact": "I'm always happy and optimistic :)"
+    },
+    {
+        "firstname": "Brandon",
+        "lastname": "Li",
+        "major": "Computer Science",
+        "gradyear": "2026",
+        "favracket": "Yonex Astrox 88D Pro",
+        "hometown": "Vernon Hills, IL",
+        "funfact": "I play the clarinet and I have perfect pitch!"
+    },
+    {
         "firstname": "Emily",
         "lastname": "Hu",
         "email": "exh2@cornell.edu",
@@ -87,7 +105,7 @@
         "gradyear": "2023",
         "favracket": "Yonex Voltric 70",
         "hometown": "Edison, NJ",
-        "funfact": "Come play :) it'll be worth your while."
+        "funfact": "I used to swim competitively but quit due to a chlorine allergy."
     },
     {
         "firstname": "Matthias",
@@ -110,26 +128,6 @@
         "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
     },
     {
-        "firstname": "Frances",
-        "lastname": "Lee",
-        "email": "fl296@cornell.edu",
-        "major": "Electrical and Computer Engineering",
-        "gradyear": "2022",
-        "favracket": "Yonex ArcSaber 8",
-        "hometown": "Whippany, NJ",
-        "funfact": "I'm right handed but I eat with my left."
-    },
-    {
-        "firstname": "Priyam",
-        "lastname": "Patel",
-        "email": "pp386@cornell.edu",
-        "major": "Electrical & Computer Engineering",
-        "gradyear": "2022",
-        "favracket": "Yonex ArcSaber 7",
-        "hometown": "Ahmedabad, GJ, India",
-        "funfact": "I am super tall but suck at basketball."
-    },
-    {
         "firstname": "Jiren",
         "lastname": "Liu",
         "email": "jl2866@cornell.edu",
@@ -138,5 +136,14 @@
         "favracket": "Victor Bravesword",
         "hometown": "Nanjing, Jiangsu, China",
         "funfact": "I also do archery. I used to play for UConn Badminton against Cornell's team."
+    },
+    {
+        "firstname": "Boyuan",
+        "lastname": "Cui",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2022",
+        "favracket": "Yonex ArcSaber 11 TH Limited Edition",
+        "hometown": "Taiyuan, Shanxi, China",
+        "funfact": "I only have one racket that I bought, the others are gifts or prizes from others."
     }
 ]

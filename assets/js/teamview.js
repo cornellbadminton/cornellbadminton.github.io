@@ -7,7 +7,6 @@ function appendData(data) {
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
         var last1 = data[i].lastname;
-        var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
         var favracket1 = data[i].favracket;
@@ -17,7 +16,6 @@ function appendData(data) {
         var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
         var first2 = data[i+1].firstname;
         var last2 = data[i+1].lastname;
-        var email2 = data[i+1].email;
         var major2 = data[i+1].major;
         var gradyear2 = data[i+1].gradyear;
         var favracket2 = data[i+1].favracket;
@@ -34,8 +32,8 @@ function appendData(data) {
         var pfpelement1 = document.createElement("img");
         pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '200px');
-        pfpelement1.setAttribute('width', '200px');
+        pfpelement1.setAttribute('height', '175px');
+        pfpelement1.setAttribute('width', '175px');
         pfpelement1.setAttribute('align', 'right');
         column_1_img.appendChild(pfpelement1);
 
@@ -47,7 +45,7 @@ function appendData(data) {
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
         var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
+        displayinfo1.innerHTML = `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
             <b>Fun Fact:</b> ` + funfact1
@@ -65,8 +63,8 @@ function appendData(data) {
         var pfpelement2 = document.createElement("img");
         pfpelement2.setAttribute('src', '../../images/' + first2.toLowerCase() + '_' + last2.toLowerCase() + '.png');
         pfpelement2.setAttribute('alt', name2);
-        pfpelement2.setAttribute('height', '200px');
-        pfpelement2.setAttribute('width', '200px');
+        pfpelement2.setAttribute('height', '175px');
+        pfpelement2.setAttribute('width', '175px');
         pfpelement2.setAttribute('align', 'right');
         column_2_img.appendChild(pfpelement2);
 
@@ -78,7 +76,7 @@ function appendData(data) {
         var displaymajoryear2 = document.createElement('H2');
         displaymajoryear2.innerHTML = major2 + " | " + gradyear2;
         var displayinfo2 = document.createElement('p');
-        displayinfo2.innerHTML = "<b>Email:</b> " + email2 + "<br>" + `
+        displayinfo2.innerHTML = `
             <b>Favorite Racket:</b> ` + favracket2 + "<br>" + `
             <b>Hometown:</b> ` + hometown2 + "<br>" + `
             <b>Fun Fact:</b> ` + funfact2;
@@ -96,7 +94,6 @@ function appendData(data) {
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
         var last1 = data[i].lastname;
-        var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
         var favracket1 = data[i].favracket;
@@ -113,8 +110,8 @@ function appendData(data) {
         var pfpelement1 = document.createElement("img");
         pfpelement1.setAttribute('src', '../../images/' + first1.toLowerCase() + '_' + last1.toLowerCase() + '.png');
         pfpelement1.setAttribute('alt', name1);
-        pfpelement1.setAttribute('height', '200px');
-        pfpelement1.setAttribute('width', '200px');
+        pfpelement1.setAttribute('height', '175px');
+        pfpelement1.setAttribute('width', '175px');
         pfpelement1.setAttribute('align', 'right');
         column_1_img.appendChild(pfpelement1);
 
@@ -126,7 +123,7 @@ function appendData(data) {
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
         var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1 + "<br>" + `
+        displayinfo1.innerHTML = `
             <b>Favorite Racket:</b> ` + favracket1 + "<br>" + `
             <b>Hometown:</b> ` + hometown1 + "<br>" + `
             <b>Fun Fact:</b> ` + funfact1
