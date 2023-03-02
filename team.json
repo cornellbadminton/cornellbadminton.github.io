@@ -1,23 +1,5 @@
 [
     {
-        "firstname": "Jacqueline",
-        "lastname": "Wen",
-        "major": "Computer Science",
-        "gradyear": "2026",
-        "favracket": "Yonex Nanoflare 800LT",
-        "hometown": "San Jose, CA",
-        "funfact": "I'm always happy and optimistic :)"
-    },
-    {
-        "firstname": "Brandon",
-        "lastname": "Li",
-        "major": "Computer Science",
-        "gradyear": "2026",
-        "favracket": "Yonex Astrox 88D Pro",
-        "hometown": "Vernon Hills, IL",
-        "funfact": "I play the clarinet and I have perfect pitch!"
-    },
-    {
         "firstname": "Emily",
         "lastname": "Hu",
         "email": "exh2@cornell.edu",
@@ -26,16 +8,6 @@
         "favracket": "Yonex Voltric Z-Force 2",
         "hometown": "Vernon Hills, IL",
         "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
-    },
-    {
-        "firstname": "Catherine",
-        "lastname": "Li",
-        "email": "cl945@cornell.edu",
-        "major": "Food Science",
-        "gradyear": "2025",
-        "favracket": "Yonex Astrox 99",
-        "hometown": "Cupertino, CA",
-        "funfact": "I can wiggle my ears!"
     },
     {
         "firstname": "Netra",
@@ -48,26 +20,6 @@
         "funfact": "I fostered two 6 week old kittens over the summer!"
     },
     {
-        "firstname": "Lucas",
-        "lastname": "De Venecia",
-        "email": "lbd52@cornell.edu",
-        "major": "Physics",
-        "gradyear": "2025",
-        "favracket": "Yonex Voltric Z-Force II",
-        "hometown": "Manila, Philippines",
-        "funfact": "I once danced to \"Single Ladies (Put a Ring on It)\" while standing on a horse."
-    },
-    {
-        "firstname": "Michael",
-        "lastname": "Liang",
-        "email": "ml2226@cornell.edu",
-        "major": "Electrical and Computer Engineering",
-        "gradyear": "2024",
-        "favracket": "Li-Ning Aeronaut 9000i",
-        "hometown": "Mesa, AZ",
-        "funfact": "I'm a troll :)"
-    },
-    {
         "firstname": "Janice",
         "lastname" : "Lee",
         "email": "jl2838@cornell.edu",
@@ -76,16 +28,6 @@
         "favracket": "Yonex Voltric 7",
         "hometown": "Whippany, NJ",
         "funfact": "I microwave my apples because my teeth are cold-sensitive."
-    },
-    {
-        "firstname": "Amy",
-        "lastname": "Gong",
-        "email": "ajg254@cornell.edu",
-        "major": "Computer Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Astrox 5FX",
-        "hometown": "Philadelphia, PA",
-        "funfact": "I have hyperextended knees and double-jointed fingers!"
     },
     {
         "firstname": "Alex",
@@ -106,44 +48,5 @@
         "favracket": "Yonex Voltric 70",
         "hometown": "Edison, NJ",
         "funfact": "I used to swim competitively but quit due to a chlorine allergy."
-    },
-    {
-        "firstname": "Matthias",
-        "lastname": "Lai",
-        "email": "mml242@cornell.edu",
-        "major": "Animal Science",
-        "gradyear": "2023",
-        "favracket": "Yonex Armortec 900 Technique",
-        "hometown": "Cupertino, CA",
-        "funfact": "I have four cats and they're all named after food :D"
-    },
-    {
-        "firstname": "Shreyas",
-        "lastname": "Kotian",
-        "email": "spk59@cornell.edu",
-        "major": "Mechanical Engineering",
-        "gradyear": "2023",
-        "favracket": "Yonex Duora 10",
-        "hometown": "Mumbai, India",
-        "funfact": "Sometimes it is the very people who no one imagines anything of who do the things no one can imagine."
-    },
-    {
-        "firstname": "Jiren",
-        "lastname": "Liu",
-        "email": "jl2866@cornell.edu",
-        "major": "Mechanical Engineering",
-        "gradyear": "2023",
-        "favracket": "Victor Bravesword",
-        "hometown": "Nanjing, Jiangsu, China",
-        "funfact": "I also do archery. I used to play for UConn Badminton against Cornell's team."
-    },
-    {
-        "firstname": "Boyuan",
-        "lastname": "Cui",
-        "major": "Electrical and Computer Engineering",
-        "gradyear": "2022",
-        "favracket": "Yonex ArcSaber 11 TH Limited Edition",
-        "hometown": "Taiyuan, Shanxi, China",
-        "funfact": "I only have one racket that I bought, the others are gifts or prizes from others."
     }
 ]
