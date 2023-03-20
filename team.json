@@ -1,8 +1,25 @@
 [
     {
+        "firstname": "Coco",
+        "lastname": "Tan",
+        "major": "Architecture",
+        "gradyear": "2027",
+        "favracket": "Victor TK-F C LTD",
+        "hometown": "Foshan, Guangdong, China",
+        "funfact": "I haven’t eaten a hard boiled egg ever since I peeled one and found a chick inside in 3rd grade."
+    },
+    {
+        "firstname": "Amy",
+        "lastname": "Ge",
+        "major": "Information Science",
+        "gradyear": "2026",
+        "favracket": "Li-Ning Turbo Charging 70",
+        "hometown": "San Diego, CA",
+        "funfact": "I was born in Sweden!"
+    },
+    {
         "firstname": "Emily",
         "lastname": "Hu",
-        "email": "exh2@cornell.edu",
         "major": "Mathematics + Computer Science",
         "gradyear": "2025",
         "favracket": "Yonex Voltric Z-Force 2",
@@ -12,7 +29,6 @@
     {
         "firstname": "Netra",
         "lastname": "Shetty",
-        "email": "nhs53@cornell.edu",
         "major": "Biological Sciences",
         "gradyear": "2025",
         "favracket": "Yonex Astrox 77",
@@ -20,9 +36,26 @@
         "funfact": "I fostered two 6 week old kittens over the summer!"
     },
     {
+        "firstname": "Ian",
+        "lastname": "Yang",
+        "major": "Mathematics + Computer Science",
+        "gradyear": "2025",
+        "favracket": "Yonex Duora",
+        "hometown": "Singapore",
+        "funfact": "I have Arizona Iced Tea shoes."
+    },
+    {
+        "firstname": "Catherine",
+        "lastname": "Li",
+        "major": "Food Science",
+        "gradyear": "2025",
+        "favracket": "Yonex Astrox 99",
+        "hometown": "Cupertino, CA",
+        "funfact": "I can wiggle my ears!"
+    },
+    {
         "firstname": "Janice",
         "lastname" : "Lee",
-        "email": "jl2838@cornell.edu",
         "major": "Information Science",
         "gradyear": "2024",
         "favracket": "Yonex Voltric 7",
@@ -30,9 +63,17 @@
         "funfact": "I microwave my apples because my teeth are cold-sensitive."
     },
     {
+        "firstname": "Amy",
+        "lastname": "Gong",
+        "major": "Computer Science",
+        "gradyear": "2024",
+        "favracket": "Yonex Astrox 5FX",
+        "hometown": "Philadelphia, PA",
+        "funfact": "I have hyperextended knees and double-jointed fingers!"
+    },
+    {
         "firstname": "Alex",
         "lastname": "Sheft",
-        "email": "aps322@cornell.edu",
         "major": "Biology",
         "gradyear": "2023",
         "favracket": "Yonex Astrox 88S",
@@ -40,9 +81,17 @@
         "funfact": "I have a private pilot license, and have also met 1/4 of the men who have walked on the moon."
     },
     {
+        "firstname": "Weilun",
+        "lastname": "Wang",
+        "major": "Mechanical & Aerospace Engineering",
+        "gradyear": "2023",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "Guangdong, China ",
+        "funfact": "I used to hate celery and one day I just suddenly start liking it."
+    },
+    {
         "firstname": "Daniel",
         "lastname": "Zhan",
-        "email": "dz268@cornell.edu",
         "major": "Engineering Physics + Computer Science",
         "gradyear": "2023",
         "favracket": "Yonex Voltric 70",
