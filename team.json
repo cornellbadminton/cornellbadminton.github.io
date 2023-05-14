@@ -9,6 +9,15 @@
         "funfact": "I haven’t eaten a hard boiled egg ever since I peeled one and found a chick inside in 3rd grade."
     },
     {
+        "firstname": "Nicole",
+        "lastname": "Sin",
+        "major": "Computer Science",
+        "gradyear": "2026",
+        "favracket": "Yonex Astrox 100 ZZ",
+        "hometown": "Brooklyn, NY",
+        "funfact": "6 of the 10 fish I was raising died on the same day and I still don’t know why!"
+    },
+    {
         "firstname": "Amy",
         "lastname": "Ge",
         "major": "Information Science",
@@ -20,7 +29,7 @@
     {
         "firstname": "Emily",
         "lastname": "Hu",
-        "major": "Mathematics + Computer Science",
+        "major": "Computer Science",
         "gradyear": "2025",
         "favracket": "Yonex Voltric Z-Force 2",
         "hometown": "Vernon Hills, IL",

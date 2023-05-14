@@ -1,68 +1,37 @@
 [
     {
-        "position": "Team Co-Captain",
-        "firstname": "Daniel",
-        "lastname": "Zhan",
-        "email": "dz268@cornell.edu",
-        "major": "Engineering Physics + Computer Science",
-        "gradyear": "2023",
-        "favracket": "Yonex Voltric 70",
-        "hometown": "Edison, NJ",
-        "funfact": "I'm extraordinarily bad at tennis."
+        "position": "President",
+        "firstname": "Emily",
+        "lastname": "Hu",
+        "major": "Computer Science",
+        "gradyear": "2025"
     },
     {
-        "position": "President",
-        "firstname": "Alex",
-        "lastname": "Sheft",
-        "email": "aps322@cornell.edu",
-        "major": "Biology",
-        "gradyear": "2023",
-        "favracket": "Yonex Astrox 88S",
-        "hometown": "San Francisco, CA",
-        "funfact": "I have a private pilot license, and have also met 1/4 of the men who have walked on the moon."
+        "position": "Team Captain",
+        "firstname": "Netra",
+        "lastname": "Shetty",
+        "major": "Biological Sciences",
+        "gradyear": "2025"
     },
     {
         "position": "Vice President",
-        "firstname": "Emily",
-        "lastname": "Hu",
-        "email": "exh2@cornell.edu",
-        "major": "Mathematics + Computer Science",
-        "gradyear": "2025",
-        "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Vernon Hills, IL",
-        "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
-    },
-    {
-        "position": "Secretary",
-        "firstname": "Catherine",
-        "lastname": "Li",
-        "email": "cl945@cornell.edu",
-        "major": "Food Science",
-        "gradyear": "2025",
-        "favracket": "Yonex Astrox 99",
-        "hometown": "Cupertino, CA",
-        "funfact": "I can wiggle my ears!"
+        "firstname": "Coco",
+        "lastname": "Tan",
+        "major": "Architecture",
+        "gradyear": "2027"
     },
     {
         "position": "Treasurer",
-        "firstname": "Amy",
-        "lastname": "Gong",
-        "email": "ajg254@cornell.edu",
+        "firstname": "Nicole",
+        "lastname": "Sin",
         "major": "Computer Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Astrox 5FX",
-        "hometown": "Philadelphia, PA",
-        "funfact": "I have hyperextended knees and double-jointed fingers!"
+        "gradyear": "2026"
     },
     {
-        "position": "Team Co-Captain, Social Media Chair",
-        "firstname": "Netra",
-        "lastname": "Shetty",
-        "email": "nhs53@cornell.edu",
-        "major": "Biological Sciences",
-        "gradyear": "2025",
-        "favracket": "Yonex Astrox 77",
-        "hometown": "San Jose, CA",
-        "funfact": "I fostered two 6 week old kittens over the summer!"
+        "position": "Social Media Chair",
+        "firstname": "Annesh",
+        "lastname": "Ghosh-Dastidar",
+        "major": "Computer Science + ORIE",
+        "gradyear": "2025"
     }
 ]

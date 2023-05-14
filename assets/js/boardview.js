@@ -8,23 +8,15 @@ function appendData(data) {
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
         var last1 = data[i].lastname;
-        var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
-        var favracket1 = data[i].favracket;
-        var hometown1 = data[i].hometown;
-        var funfact1 = data[i].funfact;
 
         var position2 = data[i+1].position;
         var name2 = data[i+1].firstname + ' ' + data[i+1].lastname;
         var first2 = data[i+1].firstname;
         var last2 = data[i+1].lastname;
-        var email2 = data[i+1].email;
         var major2 = data[i+1].major;
         var gradyear2 = data[i+1].gradyear;
-        var favracket2 = data[i+1].favracket;
-        var hometown2 = data[i+1].hometown;
-        var funfact2 = data[i+1].funfact;
 
         var full_row = document.createElement("div");
         full_row.classList.add('rosterrow');
@@ -50,12 +42,9 @@ function appendData(data) {
         displayname1.innerHTML = name1;
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
-        var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1;
         column_1_info.appendChild(displaypos1);
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
-        column_1_info.appendChild(displayinfo1);
         full_row.appendChild(column_1_info);
 
         /////////////////////////////////////////////////////////second row in column
@@ -81,12 +70,9 @@ function appendData(data) {
         displayname2.innerHTML = name2;
         var displaymajoryear2 = document.createElement('H2');
         displaymajoryear2.innerHTML = major2 + " | " + gradyear2;
-        var displayinfo2 = document.createElement('p');
-        displayinfo2.innerHTML = "<b>Email:</b> " + email2;
         column_2_info.appendChild(displaypos2);
         column_2_info.appendChild(displayname2);
         column_2_info.appendChild(displaymajoryear2);
-        column_2_info.appendChild(displayinfo2);
         full_row.appendChild(column_2_info);
         //var div = document.createElement("div");
         //div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
@@ -99,12 +85,8 @@ function appendData(data) {
         var name1 = data[i].firstname + ' ' + data[i].lastname;
         var first1 = data[i].firstname;
         var last1 = data[i].lastname;
-        var email1 = data[i].email;
         var major1 = data[i].major;
         var gradyear1 = data[i].gradyear;
-        var favracket1 = data[i].favracket;
-        var hometown1 = data[i].hometown;
-        var funfact1 = data[i].funfact;
 
         var full_row = document.createElement("div");
         full_row.classList.add('rosterrow');
@@ -130,12 +112,9 @@ function appendData(data) {
         displayname1.innerHTML = name1;
         var displaymajoryear1 = document.createElement('H2');
         displaymajoryear1.innerHTML = major1 + " | " + gradyear1;
-        var displayinfo1 = document.createElement('p');
-        displayinfo1.innerHTML = "<b>Email:</b> " + email1;
         column_1_info.appendChild(displaypos1);
         column_1_info.appendChild(displayname1);
         column_1_info.appendChild(displaymajoryear1);
-        column_1_info.appendChild(displayinfo1);
         full_row.appendChild(column_1_info);
 
         //filler space
