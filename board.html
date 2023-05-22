@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Cornell Badminton</title>
+		<title>Cornell Badminton Club</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/roster.css"/>
 		<style>
 			* {
 			  box-sizing: border-box;
@@ -16,16 +18,19 @@
 			}
 			/* Create four equal columns */
 			.rostercolumnpfp {
-			  flex: 0%;
-			  padding: 10px;
+			  flex: 20%;
+			  padding: 25px;
 			}
 			.rostercolumn {
-			  flex: 0%;
+			  flex: 30%;
 			  padding: 25px;
 			}
 			/* On screens that are 992px wide or less, go from four columns to two columns */
-			@media screen and (max-width: 1080px) {
-			  .rostercolumn {
+			@media screen and (max-width: 1280px) {
+				.rostercolumnpfp {
+			  	flex: 50%;
+			}
+				.rostercolumn {
 				flex: 50%;
 			  }
 			}
@@ -35,7 +40,7 @@
         	display: none !important;
     			}
 			}
-			</style>
+		</style>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -45,7 +50,7 @@
 
 				<!-- Logo -->
 					<div id="logo">
-						<h1>Cornell Badminton</h1>
+						<h1>Cornell Badminton Club</h1>
 					</div>
 
 				<!-- Nav -->
@@ -54,10 +59,10 @@
 							<li class="current"><a href="index.html">Home</a></li>
 							<li>
 								<a href="team.html">Team</a>
-								<ul>
-									<li align='center'><a href="roster.html">Roster</a></li>
-										<li align='center'><a href="alumni.html">Alumni</a></li>
-								</ul>
+									<ul>
+										<li><a href="team.html">Current Team</a></li>
+                                        <li><a href="board.html">Board</a></li>
+									</ul>
 							</li>
 							<li><a href="awards.html">Awards</a></li>
 							<li><a href="media.html">Media</a></li>
@@ -67,46 +72,30 @@
 			</section>
 
 			<!-- Main -->
-				<div id="main" class="wrapper style2">
-					<div class="title">Alumni</div>
-					<div class="container">
+      <div id="main" class="wrapper style3">
+        <div class="title">2023-2024 Executive Board</div>
+        <div id="myData"></div>
+		  <div id="myDataExtra"></div>
+          <script type="text/javascript" src="assets/js/boardview.js"></script>
+          <script>
+              fetch('board.json')
+                  .then(function (response) {
+                      return response.json();
+                  })
+                  .then(function (data) {
+                      appendData(data);
+                  })
+                  .catch(function (err) {
+                      console.log('error: ' + err);
+                  });    
+          </script>
+        </div>
 
-						<div class="rosterrow">
-							<div class="rostercolumnpfp">
-								<img src="images/ruyan_zhang.png" alt="Ruyan Zhang" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3>Ruyan Zhang</h3>
-							  <h2>Physics + Math | 2021</h2>
-							  <p><b>Email:</b> rz358@cornell.edu<br>
-								<b>Favorite Racket:</b> Astrox 88S<br>
-								<b>Hometown:</b> McLean, VA<br>
-								<b>Fun Fact:</b> Steaming shuttles does wonders 
-								during an Ithaca winter.</p>
-							</div>
-				
-							<div class="rostercolumnpfp">
-								<img src="images/varun_rajesh.png" alt="Varun Rajesh" align='right'/>
-							</div>
-							
-							<div class="rostercolumn">
-							  <h3>Varun Rajesh</h3>
-							  <h2>CS + Math | 2021</h2>
-							  <p><b>Email:</b> vr253@cornell.edu<br>
-								<b>Favorite Racket:</b> Z-Force 2<br>
-								<b>Hometown:</b> Singapore<br>
-								<b>Fun Fact:</b> Pineapple belongs on pizza.</p>
-							</div>
-						  </div>
-
-					</div>
-				</div>
-
-
+      </div>
+		<div>
 			<!-- Footer -->
 			<section id="footer" class="wrapper">
-				<div class="title">&copy; Cornell Badminton 2021</div>
+				<div class="title">&copy; Cornell Badminton 2023</div>
 				<center>
 					<ul class="icons">
 						<li><a href="https://www.instagram.com/cornellbadminton/?hl=en" class="icon brands fa-instagram alt" 
@@ -114,7 +103,7 @@
 						<li><a href="https://www.facebook.com/BigRedBadminton/" class="icon brands fa-facebook-f alt" 
 						style="color:rgb(77, 77, 77); font-size: 2em;"><span class="label">Facebook</span></a></li>
 					</ul>
-					<p style="color:rgb(77, 77, 77);">Website by Daniel Zhan. Styling by @ajlkn for <u>HTML5 UP</u>.</p>
+					<p style="color:rgb(77, 77, 77);">Website by Daniel Zhan. Style by @ajlkn for <u>HTML5 UP</u>.</p>
 				</center>
 			</section>
 
@@ -127,6 +116,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>

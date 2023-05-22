@@ -1,0 +1,37 @@
+[
+    {
+        "position": "President",
+        "firstname": "Emily",
+        "lastname": "Hu",
+        "major": "Computer Science",
+        "gradyear": "2025"
+    },
+    {
+        "position": "Team Captain",
+        "firstname": "Netra",
+        "lastname": "Shetty",
+        "major": "Biological Sciences",
+        "gradyear": "2025"
+    },
+    {
+        "position": "Vice President",
+        "firstname": "Coco",
+        "lastname": "Tan",
+        "major": "Architecture",
+        "gradyear": "2027"
+    },
+    {
+        "position": "Treasurer",
+        "firstname": "Nicole",
+        "lastname": "Sin",
+        "major": "Computer Science",
+        "gradyear": "2026"
+    },
+    {
+        "position": "Social Media Chair",
+        "firstname": "Annesh",
+        "lastname": "Ghosh-Dastidar",
+        "major": "Computer Science + ORIE",
+        "gradyear": "2025"
+    }
+]
