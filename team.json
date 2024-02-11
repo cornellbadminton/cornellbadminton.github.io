@@ -1,110 +1,110 @@
 [
     {
-        "firstname": "Coco",
-        "lastname": "Tan",
-        "major": "Architecture",
-        "gradyear": "2027",
-        "favracket": "Victor TK-F C LTD",
-        "hometown": "Foshan, Guangdong, China",
-        "funfact": "I haven’t eaten a hard boiled egg ever since I peeled one and found a chick inside in 3rd grade."
-    },
-    {
-        "firstname": "Nicole",
-        "lastname": "Sin",
-        "major": "Computer Science",
-        "gradyear": "2026",
-        "favracket": "Yonex Astrox 100 ZZ",
-        "hometown": "Brooklyn, NY",
-        "funfact": "6 of the 10 fish I was raising died on the same day and I still don’t know why!"
-    },
-    {
-        "firstname": "Amy",
-        "lastname": "Ge",
-        "major": "Information Science",
-        "gradyear": "2026",
-        "favracket": "Li-Ning Turbo Charging 70",
-        "hometown": "San Diego, CA",
-        "funfact": "I was born in Sweden!"
-    },
-    {
         "firstname": "Emily",
         "lastname": "Hu",
         "major": "Computer Science",
         "gradyear": "2025",
         "favracket": "Yonex Voltric Z-Force 2",
         "hometown": "Vernon Hills, IL",
-        "funfact": "I'm allergic to the salads at Cornell's dining halls, but not elsewhere."
-    },
-    {
-        "firstname": "Netra",
-        "lastname": "Shetty",
-        "major": "Biological Sciences",
-        "gradyear": "2025",
-        "favracket": "Yonex Astrox 77",
-        "hometown": "San Jose, CA",
-        "funfact": "I fostered two 6 week old kittens over the summer!"
-    },
-    {
-        "firstname": "Ian",
-        "lastname": "Yang",
-        "major": "Mathematics + Computer Science",
-        "gradyear": "2025",
-        "favracket": "Yonex Duora",
-        "hometown": "Singapore",
-        "funfact": "I have Arizona Iced Tea shoes."
-    },
-    {
-        "firstname": "Catherine",
-        "lastname": "Li",
-        "major": "Food Science",
-        "gradyear": "2025",
-        "favracket": "Yonex Astrox 99",
-        "hometown": "Cupertino, CA",
-        "funfact": "I can wiggle my ears!"
+        "funfact": "I'm allergic to bananas."
     },
     {
         "firstname": "Janice",
-        "lastname" : "Lee",
+        "lastname": "Lee",
         "major": "Information Science",
         "gradyear": "2024",
-        "favracket": "Yonex Voltric 7",
+        "favracket": "Yonex Arc Saber 11 Pro",
         "hometown": "Whippany, NJ",
-        "funfact": "I microwave my apples because my teeth are cold-sensitive."
+        "funfact": "I adopted two guinea pigs off of Craigslist for 50 bucks."
     },
     {
-        "firstname": "Amy",
-        "lastname": "Gong",
+        "firstname": "Nicole",
+        "lastname": "Sin",
         "major": "Computer Science",
-        "gradyear": "2024",
-        "favracket": "Yonex Astrox 5FX",
-        "hometown": "Philadelphia, PA",
-        "funfact": "I have hyperextended knees and double-jointed fingers!"
+        "gradyear": "2026",
+        "favracket": "Yonex Astrox 88 S pro",
+        "hometown": "Brooklyn, NY",
+        "funfact": "I once mistook my shadow for a stranger chasing me on the arts quad."
     },
     {
-        "firstname": "Alex",
-        "lastname": "Sheft",
-        "major": "Biology",
-        "gradyear": "2023",
-        "favracket": "Yonex Astrox 88S",
-        "hometown": "San Francisco, CA",
-        "funfact": "I have a private pilot license, and have also met 1/4 of the men who have walked on the moon."
-    },
-    {
-        "firstname": "Weilun",
-        "lastname": "Wang",
-        "major": "Mechanical & Aerospace Engineering",
-        "gradyear": "2023",
+        "firstname": "Joshua",
+        "lastname": "Yeung",
+        "major": "Biometry and Statistics",
+        "gradyear": "2026",
         "favracket": "Yonex Voltric Z-Force 2",
-        "hometown": "Guangdong, China ",
-        "funfact": "I used to hate celery and one day I just suddenly start liking it."
+        "hometown": "Santa Clara, CA",
+        "funfact": "I like sour golden raisins (the ones you'd get as a kid in elementary school)."
     },
     {
-        "firstname": "Daniel",
-        "lastname": "Zhan",
-        "major": "Engineering Physics + Computer Science",
-        "gradyear": "2023",
-        "favracket": "Yonex Voltric 70",
-        "hometown": "Edison, NJ",
-        "funfact": "I used to swim competitively but quit due to a chlorine allergy."
+        "firstname": "Robbie",
+        "lastname": "Shekhtman",
+        "major": "Computer Science",
+        "gradyear": "2027",
+        "favracket": "FZ Forza Titanium 11.000 VS",
+        "hometown": "Newton, MA",
+        "funfact": "I love to cook."
+    },
+    {
+        "firstname": "Chris",
+        "lastname": "Yang",
+        "major": "Electrical and Computer Engineering",
+        "gradyear": "2024",
+        "favracket": "Yonex Astrox 99",
+        "hometown": "NYC, NY",
+        "funfact": "I brought a wok with me to college just to cook stir fry."
+    },
+    {
+        "firstname": "Latika",
+        "lastname": "Sreenath",
+        "major": "Computer Science",
+        "gradyear": "2027",
+        "favracket": "Yonex Voltric 70 E-Tune ",
+        "hometown": "Flower Mound, TX",
+        "funfact": "I can do a round-off (more complicated cartwheel)."
+    },
+    {
+        "firstname": "Michael",
+        "lastname": "Liang",
+        "major": "Information Science MPS",
+        "gradyear": "2024",
+        "favracket": "Li-Ning Aeronaut 9000i",
+        "hometown": "Mesa, AZ",
+        "funfact": "i cant make up fun facts."
+    },
+    {
+        "firstname": "Wesley",
+        "lastname": "Mui",
+        "major": "Human Biology, Health, and Society",
+        "gradyear": "2027",
+        "favracket": "Yonex Astrox 77 Pro",
+        "hometown": "Hong Kong",
+        "funfact": "I got 2nd place in an intercollegiate GeoGuessr tournament."
+    },
+    {
+        "firstname": "Sumaswara",
+        "lastname": "Chinthalapati",
+        "major": "Human Biology",
+        "gradyear": "2027",
+        "favracket": "Yonex Nanoflare 800",
+        "hometown": "San Jose, CA",
+        "funfact": "I used to be left-handed but now am right-handed."
+    },
+    {
+        "firstname": "Coco",
+        "lastname": "Tan",
+        "major": "Architecture",
+        "gradyear": "2027",
+        "favracket": "Victor TK-F C LTD",
+        "hometown": "Guangdong, China",
+        "funfact": "I can lucid dream on command when I am sleep deprived."
+    },
+    {
+        "firstname": "Clarence",
+        "lastname": "Un",
+        "major": "Biology",
+        "gradyear": "2026",
+        "favracket": "Yonex Voltric Z-Force 2",
+        "hometown": "San Jose, CA",
+        "funfact": "I like to go hiking outside of badminton!"
     }
 ]
